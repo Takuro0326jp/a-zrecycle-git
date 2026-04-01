@@ -1,0 +1,39 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="sidebar a-img">
+    <ul class="left_banner">
+      <li><a href="http://www.a-zrecycle.com/blog/archives/13232"><img src="../images/cmn/leftbanner_magazine.jpg" width="210" height="141" alt="雑誌に掲載されました" class="imghover" /></a></li>
+      <li><a href="http://www.a-zrecycle.com/blog/archives/18700"><img src="../images/cmn/leftbanner_tv.jpg" width="210" height="141" alt="テレビでも紹介されました" class="imghover" /></a></li>
+      <li><a href="http://www.a-zrecycle.com/blog/archives/18707"><img src="../images/cmn/leftbanner_vintage.jpg" width="210" height="113" alt="ヴィンテージ家具の輸入も行なっております" class="imghover" /></a></li>
+      <li class="text_banner">
+        <p>目黒区・港区・渋谷区・<br />
+          世田谷区など・・・</p>
+      </li>
+    </ul>
+    <div id="left_navi">
+      <div><img src="../images/cmn/title_lnavi.gif" alt="取扱商品" width="210" height="30" /></div>
+      <div class="left_navi01"><a href="../products/index.html"><img src="../images/cmn/lnavi_electronics.gif" alt="家電" width="63" height="22" class="imghover" /></a></div>
+      <div class="left_navi01"><a href="../products/design_furniture.html"><img src="../images/cmn/lnavi_furniture.gif" alt="家具" width="63" height="29" class="imghover" /></a></div>
+      <div class="left_subnavi">
+        <div class="left_navi02"><a href="../products/bed.html"><img src="../images/cmn/snavi_bed.gif" alt="ベッド" width="73" height="14" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/antique.html"><img src="../images/cmn/snavi_antic_furniture.gif" alt="北欧ミッドセンチュリー" width="181" height="15" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/design_furniture.html"><img src="../images/cmn/snavi_design_furniture.gif" alt="デザイナーズ家具" width="181" height="14" class="imghover" /></a></div>
+      </div>
+      <div class="left_navi01"><a href="../products/bicycle.html"><img src="../images/cmn/lnavi_bicycle.gif" alt="自転車" width="86" height="20" class="imghover" /></a></div>
+      <div class="left_navi01"><a href="../products/instrument.html"><img src="../images/cmn/lnavi_musical_instrument.gif" alt="楽器・オーディオ" width="144" height="28" class="imghover" /></a></div>
+      <div class="left_subnavi">
+        <div class="left_navi02"><a href="../products/instrument.html"><img src="../images/cmn/snavi_instruments.gif" alt="楽器" width="67" height="14" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/audio.html"><img src="../images/cmn/snavi_audio.gif" alt="オーディオ" width="99" height="14" class="imghover" /></a></div>
+      </div>
+    </div>
+    <div class="left_contact">
+      <h3><img src="../images/cmn/lefttitle_contact.jpg" width="210" height="29" alt="お問い合わせ" /></h3>
+      <div class="pc"><img src="../images/cmn/header_phone.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:00～21:00" width="208" height="63" ></div>
+      <div class="nonpc a-img"><a href="tel:0120531017"><img src="../images/cmn/header_phone_s.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:00～21:00" width="208" height="66" ></a></div>
+      <h4 class="left_contact_bottom"><img src="../images/cmn/header_title_mail.gif" width="153" height="14" alt="メールでのお問い合わせ" /></h4>
+      <div class="left_mailbtnarea"> <img src="../images/cmn/left_mail_txt.gif" width="125" height="24" alt="24時間受付OK、営業時間外はコチラから！" />
+        <div class="tc a-img"><a href="../form/index.php"><img src="../images/cmn/btn_contact02.jpg" width="180" height="29" alt="お問い合わせ" /></a></div>
+        <div class="tr"><img src="../images/cmn/left_mail_address.gif" width="139" height="14" alt="def1011@gamma.ocn.ne.jp" /></div>
+      </div>
+    </div>
+  </div>
+  <!-- /#sidebox -->

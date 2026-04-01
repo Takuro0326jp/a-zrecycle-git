@@ -1,0 +1,4 @@
+# htmlでphpを動かす記述
+<FilesMatch "\.html$">
+AddHandler php7.4-script .htm .html
+</FilesMatch>

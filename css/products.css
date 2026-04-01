@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* ------------ index ------------ */
+.products{
+border:1px solid #949392;
+margin:10px 0 10px 0;
+padding:10px 0 10px 11px;
+}
+.products_row{
+background:url(../images/products/bg_mini_block.gif) no-repeat bottom left;
+padding-bottom: 1px;
+margin-top: 8px;
+}
+.left_banner {
+float:left;
+}
+.description{
+width: 462px;
+background:#f8eede;
+color:#3b3938;
+float:left;
+padding:4px 5px 5px 10px;
+border-top:solid 1px #c6b8a9;
+border-right:solid 1px #c6b8a9;
+}
+.text{
+padding:5px 15px 0 0;
+font-size:12px;
+line-height:1.5;
+width: 276px;
+}
+
+/* SP */
+.products-box{ background:url(../images/products/bg_mini_block.gif) repeat-y; border: 1px solid #c6b8a9; margin: 8px auto 10px 0; width: 98%; overflow: hidden; }
+.products-box-inner{ width: 462px; float:left; padding:4px 5px 5px 10px;}
+.products-txt{ padding: 5px 15px 0 0; font-size:12px; line-height:1.5; width: 276px; float: left; }
+@media screen and (max-width: 550px) {
+.products-box-inner{ width: 91%; float:left; padding:4px 0 5px 2%; }
+.products-txt{ width: 56%; }
+.products-box-inner .float-r{ width: 40%; }
+}
+@media screen and (max-width: 480px) {
+.products-box-inner{ width: 86%; }
+.products-txt{ padding-right: 5px; width: 100%; }
+.products-box-inner .float-r{ width: 165px; float: none; }
+}
+
+
+.item_description{ width: 96%;}
+/* SP */
+
+
+div#main tr.greyRow{ background:#f4f2f0; }
+div#main tr.whiteRow{  }
+
+.brandtitle{
+color:#3b3938;
+font-weight:bold;
+margin:7px 0 1px 0;
+font-size:12px;
+}
+
+.brand{ color:#3b3938; margin:0; width: 96%; border-collapse: collapse; }
+div#main table.brand td{
+width: 33%;
+text-align:center;
+border:1px solid #949392;
+padding:5px 0 4px 0;
+font-size:12px;
+line-height:1.5;
+}
+
+/* ***********************************
+ * design_furniture
+************************************ */
+
+/* logo
+----------------------------------- */
+
+.ul-logomark { width: 100%; list-style: none; clear: both; overflow: hidden; }
+.ul-logomark li { float: left; text-align: center;/* display: table-cell; vertical-align: middle;*/ }
+.ul-logomark li img { display: inline-block; vertical-align: middle; }
+
+.logomark-3 li { width: 32%; padding: 0 .5% 5px .5%; }
+.logomark-4 li { width: 24%; padding: 0 .5% 10px .5%; }
+.ul-logo-clear{ clear: both; }
+
+
+

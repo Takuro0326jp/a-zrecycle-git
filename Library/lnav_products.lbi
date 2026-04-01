@@ -1,0 +1,18 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="lnav_products">
+<img alt="取扱商品" src="../common/images/title_lnavi.gif" />
+<div id="lnavi_electronics" class="boxLnav"><a href="../products/index.html"><img alt="家電" src="../common/images/lnavi_electronics.gif" /></a></div>
+<div id="lnavi_furniture" class="boxLnav"><a href="../products/design_furniture.html"><img alt="家具" src="../common/images/lnavi_furniture.gif" /></a></div>
+
+<div class="sNav">
+<div id="snavi_bed" class="boxSnav"><a href="../products/bed.html"><img alt="ベッド" src="../common/images/snavi_bed.gif" /></a></div>
+<div id="snavi_antic_furniture" class="boxSnav"><a href="../products/antique.html"><img alt="北欧ミッドセンチュリー" src="../common/images/snavi_antic_furniture.gif" /></a></div>
+<div id="snavi_design_furniture" class="boxSnav"><a href="../products/design_furniture.html"><img alt="デザイナーズ家具" src="../common/images/snavi_design_furniture.gif" /></a></div>
+<!-- / id sNav --></div>
+
+<div id="lnavi_bicycle" class="boxLnav"><a href="../products/bicycle.html"><img alt="自転車" src="../common/images/lnavi_bicycle.gif" /></a></div>
+<div id="lnavi_musical_instrument" class="boxLnav"><a href="../products/instrument.html"><img alt="楽器・オーディオ" src="../common/images/lnavi_musical_instrument.gif" /></a></div>
+<div class="sNav">
+<div id="snavi_instruments" class="boxSnav"><a href="../products/instrument.html"><img alt="楽器" src="../common/images/snavi_instruments.gif" /></a></div>
+<div id="snavi_audio" class="boxSnav"><a href="../products/audio.html"><img alt="オーディオ" src="../common/images/snavi_audio.gif" /></a></div>
+<!-- / id sNav --></div>
+<!-- / id lnav_products --></div>

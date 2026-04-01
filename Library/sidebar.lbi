@@ -1,0 +1,38 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="sidebar">
+<div class="sell_sideBlocks">
+<a href="../form/index.php"><img alt="お買取のお申し込みはこちらから" src="../common/images/img_rnavi_sell_items.gif" /></a>
+<!-- / class sell_sideBlocks --></div>
+
+<div class="sideBlocks" id="sideFaq">
+<img alt="よくあるご質問" src="../common/images/rnavi_faq.gif" />
+<div class="sideBlocksQuestions"><a href="../faq/index.html#q1">買取していない物はありますか？</a></div>
+<div class="sideBlocksQuestions"><a href="../faq/index.html#q2">郵送は、本当に無料ですか？</a></div>
+<div class="sideBlocksQuestions_last"><a href="../faq/index.html#q3">どこまで出張買取に来れますか？</a></div>
+<!-- / class sideBlocks --></div>
+
+<div id="adoorBlogLogo">
+<a href="../blog/"><img alt="adoor OFFICIAL BLOG" src="../common/images/img_adoor_blog_on.gif" /></a>
+<!-- / id adoorBlogLogo --></div>
+
+<div class="sideBlocks" id="sideAbout">
+<img alt="買い取り窓口のご案内" src="../images/rnavi_map.gif" />
+
+<table id="mapTable">
+<tr>
+<td class="mapTableLeft"><a href="../about/index.html#shop1"><img alt="a door アドア成城" src="../common/images/img_shop1.gif" /></a></td>
+<td class="mapTableRight"><a href="../about/index.html#shop2"><img alt="a door アドア用賀" src="../common/images/img_shop2.gif" /></a></td>
+</tr>
+
+<tr>
+<td class="mapTableLeft"><span class="mapTableSubtitle"><a href="../about/index.html#shop1">【STU（株） 世田谷倉庫】</a></span></td>
+<td class="mapTableRight"><span class="mapTableSubtitle"><a href="../about/index.html#shop2">【a door アドア東京　世田谷買取センター】</a></span></td>
+</tr>
+
+<tr>
+<td class="mapTableLeft"><span class="mapTableText">家具など大型品の買取、ミッドセンチュリー家具等を販売中です！ </span></td>
+<td class="mapTableRight"><span class="mapTableText">「店頭買取」「郵送買取」「出張買取」対応中!!</span></td>
+</tr>
+</table>
+
+<!-- / class sideBlocks --></div>
+<!-- / id sidebar --></div>

@@ -1,0 +1,353 @@
+<?php require( dirname( __FILE__ ) . '/blog/wp-blog-header.php' ); ?>
+<!DOCTYPE html>
+<html lang="ja"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WCGNPRD');</script>
+	<!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<link rel="INDEX" href="index.html" />
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon/favicon-192x192.png">
+<!--[if lt IE 9]> <script src="./js/respond.js"></script> <![endif]-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link href="css/layout.css?v1.0.2" rel="stylesheet" type="text/css" media="all" />
+<link href="css/contents.css?v1.0.6" rel="stylesheet" type="text/css" media="all" />
+<script type="text/JavaScript" src="js/cmn-js.js"></script>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>家具買取の専門ショップ「アドア東京」 </title>
+<meta name="keywords" content="家具,買取,家電,楽器,専門,アドア東京" />
+<meta name="description" content="「アドア東京」では家具買取をはじめ、家電・楽器等広いジャンルを扱う買取専門ショップです。世田谷区をはじめ目黒区・港区・渋谷区・江東区など23区を中心に出張買取キャンペーン実施中です。即日対応可！迅速に対応いたします。" />
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+
+<!-- scriptForGotop -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+$(function() {
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 100) {
+		topBtn.fadeIn();}
+	else { topBtn.fadeOut();
+	}
+	});
+//スクロールしてトップ
+		topBtn.click(function () {
+	$('body,html').animate({
+	scrollTop: 0}, 500);
+		return false;
+		});
+
+		$('#mv-slider').slick({
+			autoplay: true,
+			autoplaySpeed: 4500,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			arrows: true,
+			fade: false,
+			infinite: true,
+			centerMode: true,
+			centerPadding: 0,
+			responsive: [
+				{
+				 breakpoint: 787,
+				 settings: {
+					 slidesToShow: 1,
+				 }
+			 }
+			]
+		});
+});
+
+$(document).ready(function(){
+  // rollover
+  $(window).scroll(function() {
+    var scrollHeight = $(document).height();
+    var scrollPosition = $(window).height() + $(window).scrollTop();
+    if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+      // dom.query('.form_tel').addClass('bottom_fix');
+      $('.sp_form_tel').addClass('bottom_fix');
+      $('.form_tel').addClass('bottom_fix');
+    }
+    else{
+      // dom.query('.form_tel').removeClass('bottom_fix');
+      $('.sp_form_tel').removeClass('bottom_fix');
+      $('.form_tel').removeClass('bottom_fix');
+    }
+  });
+
+});
+</script>
+<!-- /scriptForGotop -->
+<script type="text/JavaScript" src="js/common.js?v1.0.1"></script>
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe
+	src="https://www.googletagmanager.com/ns.html?id=GTM-WCGNPRD"
+	height="0" width="0"
+	style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<!-- page -->
+<div id="page" class="toppage">
+
+
+<?php include( dirname(__FILE__) . '/include/site-header.php'); ?>
+
+<div id="mainvisual">
+	<div id="mv-slider">
+		<div class="slide-item">
+			<a href="/purchase/delivery.html"><img src="/images/top/mv_slide01.jpg" alt="おかげさまで15周年買取件数8万件突破！家具、家電、楽器など高価買取いたします"></a>
+		</div>
+		<div class="slide-item">
+			<a href="/about/#shop1"><img src="/images/top/mv_slide02.jpg" alt="ヴィンテージ家具、ブランド家具は、アドア東京にお売りください。"></a>
+		</div>
+
+		<div class="slide-item">
+			<a href="/products/"><img src="/images/top/mv_slide03.jpg" alt="１点から大規模まで、当日買取、翌日引き取りなど柔軟に対応いたします！"></a>
+		</div>
+
+		<div class="slide-item">
+			<a href="/blog/archives/31028"><img src="/images/top/mv_slide04.jpg" alt="モデルルーム展示家具を高価お買取り"></a>
+		</div>
+
+		<div class="slide-item">
+			<a href="/about/#shop1"><img src="/images/top/mv_slide02.jpg" alt="ヴィンテージ家具、ブランド家具は、アドア東京にお売りください。"></a>
+		</div>
+
+		<div class="slide-item">
+			<a href="/products/"><img src="/images/top/mv_slide03.jpg" alt="１点から大規模まで、当日買取、翌日引き取りなど柔軟に対応いたします！"></a>
+		</div>
+	</div>
+	<p>選べる3つのお買取方法！お客様のニーズに合わせ、家具・家電・楽器の買取を親切丁寧に対応しております。世田谷区、渋谷区、目黒区、港区など即日対応も可能です！</p>
+</div>
+
+<div id="contents-area">
+
+
+<div class="contents-wrapper cf">
+
+	<main class="main-contents" role="main">
+		<div class="information-archive">
+			<h3>
+				<span>Information</span>
+			</h3>
+		<?php
+		$args = array(
+			'paged' => $paged,
+			'post_status' => 'publish',
+			'post_type' => 'information',
+			'posts_per_page' => 5,
+		);
+		query_posts($args);
+		if ( have_posts() ) : ?>
+			<ul class="information-list">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<li>
+					<time class="post-date"><?php the_time( 'Y.m.d' ); ?></time>
+					<a href="<?php the_permalink(); ?>">
+						<span class="post-title"><?php the_title(); ?></span>
+					</a>
+				</li>
+			<?php endwhile; // 繰り返し処理終了 ?>
+			</ul>
+			<?php else: ?>
+			<p>新しいお知らせはありません。</p>
+			<?php endif; ?>
+		</div>
+		<?php wp_reset_query(); ?>
+		<div class="top-banners clearfix">
+			<a href="/blog/archives/28113" class="left">
+				<img src="./images/idx/bnr_apaman.jpg" width="100%" alt="adoor×apaman">
+			</a>
+			<a href="/blog/brand" class="right">
+				<img src="./images/idx/bnr_brand.jpg" width="100%" alt="ブランド家具買取強化中！">
+			</a>
+		</div>
+		<div class="top-shop">
+			<h3>
+				<img src="./images/idx/shop_fukidashi.png" alt="What’s ｢a door｣? " width="170">
+				アドア東京｜A door東京って、どんなお店？
+			</h3>
+			<div class="cont clearfix">
+				<div class="img">
+					<img src="./images/idx/shop_img.jpg" alt="アドア東京">
+				</div>
+				<div class="txt">
+					<p class="large">「アドア東京は家具、家電、楽器買取の専門ショップです。」</p>
+					<p>「専門スタッフによる【真心のある査定】がポイント！」<br>家具、家電、楽器をそれぞれ1点からでも査定しております、<br>お気軽にご相談くださいませ。<br>あなたの思い入れのある家具や楽器だから、高価買取でご提案いたします。ご不要の家具や家電があれば、アドア東京へ！</p>
+					<p>世田谷店（店頭買取窓口）〒158-0098　東京都世田谷区上用賀6-26-7 </p>
+				</div>
+			</div>
+		</div>
+		<div class="top-products">
+			<h3><span>取り扱い商品</span></h3>
+			<ul>
+
+
+				<li>
+					<a href="/products/design_furniture.html"><img src="./images/idx/product_img02.jpg" alt="ブランド家具"></a>
+					<p>北欧家具・カッシーナ・B&B・IDC大塚家具などブランド家具からヴィンテージ家具まで名作家具を高価買取致します。</p>
+					<div class="link">
+						<a href="/products/design_furniture.html">詳しくはこちら</a>
+					</div>
+				</li>
+
+				<li>
+					<a href="/products/bed.html"><img src="./images/idx/product_img05.jpg" alt="ベッド"></a>
+					<p>テンピュール・シモンズ・シーリー・キングスダウンなど高級ベッドを高価買取致します。</p>
+					<div class="link">
+						<a href="/products/bed.html">詳しくはこちら</a>
+					</div>
+				</li>
+
+				<li>
+					<a href="/products/antique.html"><img src="./images/idx/product_img06.jpg" alt="ビンテージ家具"></a>
+					<p>ウェグナー・フィンユール・G-PLAN・アーコールなど北欧家具をはじめヴィンテージ家具を高価買取致します。</p>
+					<div class="link">
+						<a href="/products/antique.html">詳しくはこちら</a>
+					</div>
+				</li>
+
+				<li>
+					<a href="/products/instrument.html"><img src="./images/idx/product_img03.jpg" alt="楽器・オーディオ"></a>
+					<p>弦楽器、管楽器、鍵盤楽器などの他、オーディオ、DJ機器、スタジオ機材など音楽機材全般を高価買取しています。</p>
+					<div class="link">
+						<a href="/products/instrument.html">詳しくはこちら</a>
+					</div>
+				</li>
+
+				<li>
+					<a href="/products/bicycle.html"><img src="./images/idx/product_img04.jpg" alt="自転車"></a>
+					<p>モールトン・ブロンプトン・キャノンデール・スペシャライズドなどロードバイクから電動自転車まで高価買取いたします。</p>
+					<div class="link">
+						<a href="/products/bicycle.html">詳しくはこちら</a>
+					</div>
+				</li>
+
+				<li>
+					<a href="/products/home_electronics.html"><img src="./images/idx/product_img01.jpg" alt="家電"></a>
+					<p>ヤマギワ・ダイソン・バルミューダなどブランド照明・デザイン家電・輸入家電を高価買取いたします。。</p>
+					<div class="link">
+						<a href="/products/home_electronics.html">詳しくはこちら</a>
+					</div>
+				</li>
+
+
+			</ul>
+		</div>
+		<div class="top-bed">
+			<h3>
+				<img src="./images/idx/bed_fukidashi.png" alt="ベッドの買取もOK!!" width="170">
+				アドア東京｜A door東京の特徴
+			</h3>
+			<div class="cont">
+				<p class="large">アドア東京では他社では取り扱いの少ないベッド買取を行なっております。</p>
+				<div class="clearfix">
+					<div class="img">
+						<img src="./images/idx/bed_img.jpg" alt="">
+					</div>
+					<div class="txt">
+						<p>10年以上経過したベッドは対象外になりますが、ブランドやメーカー次第ではフレームのみのお引取りも可能です。お問い合わせの際に「使用年数・メーカー・サイズ」をお知らせいただけますとスムーズに査定ができます。<br>また、家具買取以外にも家具の輸入も行なっております。</p><p>当社バイヤーがアメリカ・イギリスへ直接買い付けに行き、確かな目で厳選したものを仕入れております。</p><p>国内外のUSED品を買取致しております。家具買取はもちろん、再利用可能なアイテムを買取致します。</p><p>当社は大規模から小規模まで、一点から大口まで柔軟に対応致します。また、急なお引越しの際などにも迅速に対応致しておりますので、どうぞお気軽にお問い合わせください。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<?php include( dirname(__FILE__) . '/include/sidebar.php'); ?>
+
+</div><!-- .contents-wrapper -->
+
+
+<!-- InstanceBeginEditable name="idx-footer-area" -->
+
+<!--pickup start-->
+<div class="top_purchase_items">
+<div class="top_maincolumn1-ttl mt15 mb20">
+<img src="./images/idx/maincolumn_title3_1.gif" width="137" height="25" alt="一押し商品" class="mb5" />
+</div>
+
+<div class="purchase_description">
+<h3 class="h3-idx-purchase">
+<img src="./images/idx/subtitle_top_column_1.gif" width="236" height="18" alt="どんなモノが買い取れるの？" />
+<img src="./images/idx/subtitle_top_column_2.gif" width="252" height="18" alt="アドア東京の買取商品について" />
+</h3>
+<p>家具の買取につきましては、当社指定のメーカー（ブランド）を買取の対象とさせていただいております。<br />ウニコやモモナチュラルといったシンプル系のものから、パシフィックファニチャー、D＆Dのような個性的なアイテムまで幅広くお取り扱い致しております。<br />デザイナーズ家具と言われるカッシーナ、アルフレックス等もまだまだ人気があり、他にもIDC（大塚家具）、ボーコンセプト等モダン系はもちろん、松本民芸、岩谷堂といった民芸家具も家具買取の対象となっております。<br /><span>※ネットショップやホームセンター等で購入された家具はお取り扱い出来かねるケースが多くございますのでご留意ください。</span></p>
+<p>家電・楽器につきましては、型番やモデル名をお知らせくださいませ。<br />まずはお気軽にお問い合わせください！</p>
+</div>
+<?php
+$args = array(
+	'paged' => $paged,
+	'post_status' => 'publish',
+	'post_type' => 'recommend',
+	'posts_per_page' => 9,
+);
+query_posts($args);
+if ( have_posts() ) : ?>
+<ul class="recommend-list">
+<?php while ( have_posts() ) : the_post(); ?>
+	<li class="recommend-list-item clearfix">
+		<div class="item-photo">
+			<?php if(post_custom( 'url' )): ?>
+			<a href="<?php echo post_custom( 'url' ); ?>">
+			<?php endif; ?>
+				<?php if(has_post_thumbnail()): ?>
+				<?php the_post_thumbnail('large'); ?>
+				<?php else: ?>
+				<img src="images/no_image.jpg" alt="No Image" />
+				<?php endif; ?>
+			<?php if(post_custom( 'url' )): ?>
+			</a>
+			<?php endif; ?>
+		</div>
+		<div class="item-txt clearfix">
+			<?php the_content(); ?>
+			<?php if(post_custom( 'url' )): ?>
+			<p class="link"><a href="<?php echo post_custom( 'url' ); ?>">詳しくはこちら</a></p>
+			<?php endif; ?>
+		</div>
+	</li>
+	<?php endwhile; // 繰り返し処理終了 ?>
+	</ul>
+	<div class="btn-area">
+		<a href="/blog/recommend/">もっと見る</a>
+	</div>
+	<?php endif; ?>
+	<?php wp_reset_query(); ?>
+</div>
+<!-- /pickup -->
+
+
+<!-- InstanceEndEditable -->
+
+<?php include( dirname(__FILE__) . '/include/footer-links.php'); ?>
+
+<div class="footer-description">
+	<p>アドア東京のオフィシャルサイトをご覧いただきありがとうございます。東京都内を中心に、東京都下エリア、神奈川エリア、埼玉エリア、千葉エリアを対象として、家具買取、家電買取、楽器買取を行っています。ブランド家具、北欧家具、インポート家具、ベッド、照明、チェスト、キャビネット、本棚など、全ての家具、家電を買取対象としております。あなたの思い入れのある家具や楽器だから、高価にお買取いたします。買取件数は8万件以上。まずはお気軽にお問い合わせください！</p>
+</div>
+</div><!-- /#contents-area -->
+
+<?php include( dirname(__FILE__) . '/include/site-footer.php'); ?>
+
+</div><!-- /#page -->
+
+</body>
+<!-- InstanceEnd --></html>

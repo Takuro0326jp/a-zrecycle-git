@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+
+  <url>
+       <loc>https://www.a-zrecycle.com/jisseki/12149</loc>
+       <lastmod>2021-05-20T09:53:06+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.3277</priority>
+       <video:video>
+         <video:thumbnail_loc>https://i.ytimg.com/vi/XHhBnaU-IeQ/mqdefault.jpg</video:thumbnail_loc> 
+         <video:title>家具買取　アドア東京</video:title>
+         <video:description>家具買取専門ショップ【アドア東京】世田谷店　http://www.a-zrecycle.com/</video:description>
+         <video:publication_date>2012-08-04T09:45:03Z</video:publication_date>
+         <video:player_loc allow_embed="yes" autoplay="ap=1">http://www.youtube.com/embed/XHhBnaU-IeQ</video:player_loc>
+         <video:duration>20</video:duration>
+       </video:video>
+  </url>
+</urlset>

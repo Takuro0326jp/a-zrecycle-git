@@ -1,0 +1,46 @@
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+php_value max_execution_time 120
+
+Options +FollowSymLinks
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://www.a-zrecycle.com/$1 [R=301,L]
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{HTTPS} !on
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  RewriteEngine on
+  RewriteRule ^brand/page(.*)$ /brand [L,R=301]
+
+  RewriteEngine on
+  RewriteRule ^products/page(.*)$ /products [L,R=301]
+
+  RewriteEngine On
+  RewriteRule ^purchase/(.*)\.html/(.*)$ - [R=404,L]
+
+  RewriteEngine On
+  RewriteRule ^about/(.*)\.html/(.*)$ - [R=404,L]
+</IfModule>
+
+# htmlでphpを動かす記述
+# <FilesMatch "\.html$">
+# AddHandler php7.1-script .htm .html
+# </FilesMatch>
+
+# BEGIN WordPress
+# `BEGIN WordPress` から `END WordPress` までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

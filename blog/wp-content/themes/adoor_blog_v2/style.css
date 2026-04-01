@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/*
+Theme Name: adoor blog v2
+Description: adoor blog theme version1
+Theme URI: https://www.a-zrecycle.com/blog/
+Author: Steki, Inc
+Author URI: https://steki-inc.jp/
+Version: 1.0
+License: GPL
+License URI: https://www.gnu.org/copyleft/gpl.html
+*/
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* end of reset */
+
+
+/* post styles */
+/*
+.post-wrap { background: #fff; padding: 0px 10px 10px 10px; }
+*/
+.post { padding: 5px 0px; }
+.postxxx h2 {
+        font-size: 2.4em;
+        line-height: 1.8em;
+}
+.postxxx h2 a { color: #3f2274; }
+.post small {
+        font-size: 1.2em;
+        line-height: 1.5em;
+}
+.post .entry { margin: 0; }
+.entry p {  margin: 0 0 1.4em 0; line-height: 1.8}
+
+
+/* archive */
+/*
+#content h2.pagetitle {
+      padding: 20px 0px 0px 0px;
+        font-size: 2.4em;
+        line-height: 1.6em;
+}
+.archive-post h3 {
+      font-size: 1.8em;
+        line-height: 1.6em;
+}
+.archive-post {
+      border-bottom: 1px solid #e4ecf9;
+}
+*/
+/* sidebar */
+
+#sidebarxx{ font-size: 1.2em; }
+
+#sidebarxx ul { list-style: none; margin: 0; padding: 0 8px; }
+#sidebarxx ul li h2 {
+        font-size: 1.2em;
+        margin: 20px 0 4px 6;
+/*        color: #2e2c6a;*/
+	padding: 0 0 0 10px;
+	border-left: 6px solid #F47B20;
+}
+#sidebarxx ul li.widget { margin-bottom: 25px; }
+#sidebarxx .textwidget p {
+        color: #2e2c6a;
+        font-size: 1.3em;
+        line-height: 1.6em;
+        padding-bottom: 10px;
+}
+#sidebarxx ul li ul a {
+/*        font-size: 1.3em;*/
+        display: block;
+        color: #2e2c6a;
+        text-decoration: none;
+/*        padding: 10px 0px;
+        border-bottom: 1px solid #e4ecf7;*/
+}
+#sidebarxx ul li ul a:hover { text-decoration: underline; }
+#sidebarxx .widget_tag_cloud a,#sidebarxx h2 a { color: #2e2c6a; }
+#sidebarxx .widget_recent_comments ul li {
+        display: block;
+        padding: 10px 0px;
+}
+#sidebarxx .menu {
+        background: none;
+        width: 100%;
+        height: 100%;
+        float: none;
+        border: 0;
+}
+#sidebarxx ul.menu,
+#sidebarxx ul.sub-menu,
+#sidebarxx ul.sub-menu ul.sub-menu {
+        list-style: none;
+        float: none;
+}
+#sidebarxx ul.menu li,
+#sidebarxx ul.sub-menu li,
+#sidebarxx ul.sub-menu li ul.sub-menu li {
+        float: none;
+        border: 0;
+        display: inherit;
+}
+#sidebarxx ul.sub-menu li { padding-left: 10px; }
+#sidebarxx ul.menu li a {
+/*        font-size: 1.3em;*/
+        display: block;
+        color: #2e2c6a;
+        text-decoration: none;
+        padding: 10px 0px;
+        border-bottom: 1px solid #e4ecf7;
+}
+#sidebarxx ul.menu li a:hover {
+        text-decoration: underline;
+}
+#sidebarxx ul.sub-menu li a {
+/*        font-size: 1.3em;*/
+        display: block;
+        color: #2e2c6a;
+        text-decoration: none;
+        padding: 10px 0px;
+        border-bottom: 1px solid #e4ecf7;
+        font-weight: normal;
+}
+#sidebarxx ul.sub-menu li a:hover {
+        text-decoration: underline;
+        border: 0;
+        border-bottom: 1px solid #e4ecf7;
+}
+#sidebarxx .widget_calendar table {
+        font-size: 1em;
+		width: 196px;
+}
+#sidebarxx .widget_calendar table caption {
+        padding: 10px 0 0 0;
+}
+#sidebarxx .widget_calendar table tr th {
+        padding: 2px;
+        border: 1px solid #ccc;
+        color: #FFF;
+		background: #1F1410;
+		text-align: center;
+}
+#sidebarxx .widget_calendar table tr td {
+        padding: 1px 3px;
+        border: 1px solid #ccc;
+        text-align: center;
+		background: #fff;
+}
+#sidebarxx .widget_calendar table tr td#next,
+#sidebarxx .widget_calendar table tr td#prev,
+#sidebarxx .widget_calendar table tr td.pad {
+        padding: 1px 3px;
+        text-align: center;
+}
+#sidebarxx .widget_calendar table tr td.pad {
+/*        background: #e4ecf7;*/
+}
+
+
+
+/* mix */
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 5px;
+   margin: 10px;
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 4px 4px 5px;
+   margin: 0;
+}
+
+.postmetadata {
+        font-size: 0.8em;
+        margin: 2px 15px 0px 0px;
+        padding: 2px 0px 5px 0px !important;
+        border-top: 1px solid #e4ecf9;
+}
+.fsaa { font-size: 0.8em;}
+
+
+/***************************************************/
+
+.date{ text-align: right; margin: 0 0 1em 0;}
+
+@media screen and (max-width: 768px) {
+	.form_tel{
+		display: none;
+	}
+	.sp_form_tel{
+		transition: all 0.3s ease-in-out;
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+		z-index: 999;
+		background-color: rgba(255,255,255,.8);
+	}
+	.sp_form_tel.bottom_fix{
+		transition: all 0.3s ease-in-out;
+		bottom: -9999%;
+	}
+	.sp_form_tel a{
+		display: block;
+		border-radius: 5px;
+		background-color: #e07e01;
+		color: #fff;
+		padding: 15px 10px;
+		margin: 0 auto;
+		width: 90%;
+		font-size: 14px;
+		text-decoration: none;
+		text-align: center;
+	}
+	.sp_form_tel a img{
+		display: inline-block;
+		width: 22px;
+		height: auto;
+		margin-right: 10px;
+		vertical-align: sub;
+	}
+}
+@media screen and (min-width: 769px) {
+	.form_tel{
+		position: fixed;
+		display: inline-block;
+		bottom: 2%;
+		padding: 15px;
+		right: 1%;
+		background-color: #fff;
+		transition: all .4s ease-in;
+	}
+	.form_tel.bottom_fix{
+		position: fixed;
+		display: inline-block;
+		bottom: -9999px;
+		padding: 15px;
+		right: 1%;
+		background-color: #fff;
+		transition: all .4s ease-in;
+	}
+	.sp_form_tel{
+		display: none;
+	}
+}

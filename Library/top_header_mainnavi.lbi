@@ -1,0 +1,13 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="head">
+<div id="nonpc-small-head a-img">
+<a href="../index.html" id="head-m"><img src="../images/cmn/head_m.jpg" width="550" height="323" alt=""></a>
+<a href="../index.html" id="head-s"><img src="../images/cmn/head_s.jpg" width="300" height="190" alt=""></a>
+</div>
+<p id="mainnavi-ttl"><img src="../images/cmn/mainnavi_ttl.gif" width="260" height="28" alt="選べる3つのお買取方法"></p>
+<ul>
+<li><a href="../purchase/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mainnavi_house','','../images/cmn/mainnavi_house_o.gif',0)"><img src="../images/cmn/mainnavi_house.gif" alt="店頭でお買取" name="mainnavi_house" width="270" height="76" border="0"></a></li>
+<li><a href="../purchase/send.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mainnavi_package','','../images/cmn/mainnavi_package_o.gif',0)"><img src="../images/cmn/mainnavi_package.gif" alt="郵送でお買取" name="mainnavi_package" width="270" height="76" border="0"></a></li>
+<li><a href="../purchase/delivery.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mainnavi_transpo','','../images/cmn/mainnavi_transpo_o.gif',0)"><img src="../images/cmn/mainnavi_transpo.gif" alt="出張で、お買取" name="mainnavi_transpo" width="270" height="76" border="0"></a></li>
+</ul>
+
+</div>

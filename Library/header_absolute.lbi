@@ -1,0 +1,48 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="header">
+<div id="headerInner">
+<div id="headerInnerTop">
+<span class="headerText">ブランド、デザイナーズ家具、楽器、オーディオなど高価お買取いたします。</span>
+
+<span id="headerLinkRight">
+<script type="text/javascript">
+<!--
+if(navigator.userAgent.indexOf("MSIE") > -1){ //Internet Explorer
+document.write('<!-'+'-[if IE]>');
+document.write('<a href="javascript: window.external.AddFavorite(location.href, document.title);"><img alt="このHPをお気に入りに登録" src="/common/images/img_h_link.gif" /><' + '/a>');
+document.write('<![endif]-'+'->');
+}
+
+else if(navigator.userAgent.indexOf("Firefox") > -1){ //Firefox
+document.write('<a href="javascript:addBookmarkFF(location.href, document.title);"><img alt="このHPをお気に入りに登録" src="/common/images/img_h_link.gif" /><' + '/a>');
+}
+
+else if(navigator.userAgent.indexOf("Opera") > -1){ //Opera
+document.write('<a href="http://www.adoor.co.jp" rel="sidebar" title="アドア"><img alt="このHPをお気に入りに登録" src="/common/images/img_h_link.gif" /><' + '/a>');
+}
+
+else { //該当なし
+void(0); //何もしない
+}
+//-->
+</script>
+<!-- / id headerLinkRight --></span>
+<!-- / id headerInnerTop --></div>
+ 
+<div id="headerInnerBottom">
+<span class="headerText">家具・家電・楽器の買取専門ショップ「a door アドア　東京」</span>
+<br />
+<a href="/index.html"><img alt="家具・家電・楽器の買取専門ショップ「a door アドア　東京」 " src="/common/images/img_h_logo.gif" /></a>
+<address>
+<img alt="お問い合わせ 0120-531-017" src="/common/images/img_h_tel.gif" />
+</address>
+<!-- / id headerInnerBottom --></div>
+<!-- / id headerInner --></div>
+<!-- / id header --></div>
+
+<ul id="gNav">
+<li id="gNavHome"><a href="/index.html"><img alt="ホーム" src="/common/images/gnavi_home.gif" /></a></li>
+<li id="gNavPurchase"><a href="/purchase/delivery.html"><img alt="お買取方法" src="/common/images/gnavi_purchase.gif" /></a></li>
+<li id="gNavItems"><a href="/form/index.php"><img alt="買取依頼フォーム" src="/common/images/gnavi_items.gif" /></a></li>
+<li id="gNavQna"><a href="/faq/index.html"><img alt="よくあるご質問" src="/common/images/gnavi_qna.gif" /></a></li>
+<li id="gNavAbout" class="last"><a href="/about/index.html"><img alt="店舗のご案内" src="/common/images/gnavi_about.gif" /></a></li>
+</ul>

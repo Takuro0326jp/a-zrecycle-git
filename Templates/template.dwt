@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<link rel="INDEX" href="../index.html" />
+<!--[if lt IE 9]> <script src="./js/respond.js"></script> <![endif]-->
+<link href="../css/layout.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/contents.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/JavaScript" src="../js/cmn-js.js"></script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>｜</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<!-- scriptForGotop -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function() {
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 100) {
+		topBtn.fadeIn();}
+	else { topBtn.fadeOut();
+	}
+	});
+//スクロールしてトップ
+    topBtn.click(function () {
+	$('body,html').animate({
+	scrollTop: 0}, 500);
+		return false;
+    });
+});
+</script>
+<!-- /scriptForGotop -->
+
+</head>
+
+
+
+<body>
+<!-- page -->
+<div id="page">
+
+
+
+
+<!-- #header-box -->
+<div id="header-box">
+<h1 id="top">アドアは家具、家電、楽器買取の専門ショップです。</h1>
+<p id="top-catch">家具・家電・楽器の買取専門ショップ「a door アドア　東京」</p>
+<div id="header-logo" class="a-img">
+<a href="../index.html"><img src="../images/cmn/img_h_logo.gif" width="190" height="60" alt="a door アドア　東京"></a>
+</div>
+<div id="header-mail" class="a-img">
+<a href="../form/index.php"><img src="../images/cmn/header_mail.gif" alt="メールでのお問い合わせ24時間受付OK、営業時間外はコチラから！メールアドレス： def1011@gamma.ocn.ne.jp" width="272" height="66" ></a>
+</div>
+<div id="header-phone" class="a-img">
+<div class="pc"><img src="../images/cmn/header_phone.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:30～19:00" width="208" height="63" ></div>
+<div class="nonpc"><a href="tel:0120531017"><img src="../images/cmn/header_phone_s.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:30～19:00" width="208" height="66" ></a></div>
+</div>
+
+<!-- gnavi -->
+<div id="gnavi-box">
+<div id="gnavi">
+<ul>
+<li id="gnavi-1"><a href="../index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('header_btn_1','','../images/cmn/gnavi_home_o.gif',0)"><img src="../images/cmn/gnavi_home.gif" alt="ホーム" name="header_btn_1" width="96" height="15" id="header_btn_1" /></a></li>
+<li id="gnavi-2"><a href="../purchase/delivery.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('header_btn_2','','../images/cmn/gnavi_purchase_o.gif',0)"><img src="../images/cmn/gnavi_purchase.gif" alt="お買取までの流れ" name="header_btn_2" width="96" height="15" id="header_btn_2" /></a></li>
+<li id="gnavi-3"><a href="../faq/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('header_btn_3','','../images/cmn/gnavi_qna_o.gif',0)"><img src="../images/cmn/gnavi_qna.gif" alt="よくあるご質問" name="header_btn_3" width="96" height="15" id="header_btn_3" /></a></li>
+<li id="gnavi-4"><a href="https://www.a-zrecycle.com/blog/archives/18761" onmouseover="MM_swapImage('header_btn_4','','../images/cmn/gnavi_voice_o.gif',0)" onmouseout="MM_swapImgRestore()"><img src="../images/cmn/gnavi_voice.gif" alt="お客様の声" name="header_btn_4" width="96" height="15" id="header_btn_4" /></a></li>
+<li id="gnavi-5"><a href="../about/index.html#shop1" onmouseover="MM_swapImage('header_btn_5','','../images/cmn/gnavi_about_o.gif',0)" onmouseout="MM_swapImgRestore()"><img src="../images/cmn/gnavi_about.gif" alt="店舗のご案内" name="header_btn_5" width="96" height="15" id="header_btn_5" /></a></li>
+</ul>
+</div>
+</div>
+<!-- /gnavi -->
+
+<!-- TemplateBeginEditable name="mainnavi_area" -->
+<p id="head-catch">選べる3つのお買取方法！　お客様のニーズに合わせ、家具・家電・楽器の買取を親切丁寧に対応しております。世田谷区、渋谷区、目黒区、港区など即日対応も可能です！</p><!-- #BeginLibraryItem "/Library/top_header_mainnavi.lbi" --><div id="head">
+<div id="nonpc-small-head a-img">
+<a href="../index.html" id="head-m"><img src="../images/cmn/head_m.jpg" width="550" height="323" alt=""></a>
+<a href="../index.html" id="head-s"><img src="../images/cmn/head_s.jpg" width="300" height="190" alt=""></a>
+</div>
+<p id="mainnavi-ttl"><img src="../images/cmn/mainnavi_ttl.gif" width="260" height="28" alt="選べる3つのお買取方法"></p>
+<ul>
+<li><a href="../purchase/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mainnavi_house','','../images/cmn/mainnavi_house_o.gif',0)"><img src="../images/cmn/mainnavi_house.gif" alt="店頭でお買取" name="mainnavi_house" width="270" height="76" border="0"></a></li>
+<li><a href="../purchase/send.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mainnavi_package','','../images/cmn/mainnavi_package_o.gif',0)"><img src="../images/cmn/mainnavi_package.gif" alt="郵送でお買取" name="mainnavi_package" width="270" height="76" border="0"></a></li>
+<li><a href="../purchase/delivery.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mainnavi_transpo','','../images/cmn/mainnavi_transpo_o.gif',0)"><img src="../images/cmn/mainnavi_transpo.gif" alt="出張で、お買取" name="mainnavi_transpo" width="270" height="76" border="0"></a></li>
+</ul>
+
+</div><!-- #EndLibraryItem --><!-- TemplateEndEditable -->
+
+<!-- /#head -->
+
+</div>
+<!-- /#header-box -->
+
+
+
+
+
+<div id="contents-area">
+
+<div id="middle_nav">
+<!-- TemplateBeginEditable name="breadcrumb" -->
+<div id="pankuzu"><!-- #BeginLibraryItem "/Library/breadcrumb_home.lbi" --><a href="https://www.a-zrecycle.com/">家具,家電,楽器買取Home</a><!-- #EndLibraryItem --> <span class="fb">ページタイトル</span></div>
+<!-- TemplateEndEditable -->
+</div>
+
+
+<!-- #contents-box -->
+<div id="contents-box">
+
+
+
+<!-- .side-left-parts -->
+<div class="side-left-parts pc">
+<!-- TemplateBeginEditable name="sideLeftForPc" -->
+  <div class="sidebar a-img">
+    <ul class="left_banner">
+      <li><a href="https://www.a-zrecycle.com/blog/archives/13232"><img src="../images/cmn/leftbanner_magazine.jpg" width="210" height="141" alt="雑誌に掲載されました" class="imghover" /></a></li>
+      <li><a href="https://www.a-zrecycle.com/blog/archives/18700"><img src="../images/cmn/leftbanner_tv.jpg" width="210" height="141" alt="テレビでも紹介されました" class="imghover" /></a></li>
+       <li class="mt_00"><img src="../images/cmn/leftbanner_tv_02.jpg" width="210" height="109" alt="私の何がイケないの？" class="imghover" /></li>
+      <li><a href="https://www.a-zrecycle.com/blog/archives/18707"><img src="../images/cmn/leftbanner_vintage.jpg" width="210" height="113" alt="ヴィンテージ家具の輸入も行なっております" class="imghover" /></a></li>
+      <li class="text_banner">
+        <p>目黒区・港区・渋谷区・<br />
+          世田谷区など・・・</p>
+      </li>
+    </ul>
+    <div id="left_navi">
+      <div><img src="../images/cmn/title_lnavi.gif" alt="取扱商品" width="210" height="30" /></div>
+      <div class="left_navi01"><a href="../products/index.html"><img src="../images/cmn/lnavi_electronics.gif" alt="家電" width="63" height="22" class="imghover" /></a></div>
+      <div class="left_navi01"><a href="../products/design_furniture.html"><img src="../images/cmn/lnavi_furniture.gif" alt="家具" width="63" height="29" class="imghover" /></a></div>
+      <div class="left_subnavi">
+        <div class="left_navi02"><a href="../products/bed.html"><img src="../images/cmn/snavi_bed.gif" alt="ベッド" width="73" height="14" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/antique.html"><img src="../images/cmn/snavi_antic_furniture.gif" alt="北欧ミッドセンチュリー" width="181" height="15" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/design_furniture.html"><img src="../images/cmn/snavi_design_furniture.gif" alt="デザイナーズ家具" width="181" height="14" class="imghover" /></a></div>
+      </div>
+      <div class="left_navi01"><a href="../products/bicycle.html"><img src="../images/cmn/lnavi_bicycle.gif" alt="自転車" width="86" height="20" class="imghover" /></a></div>
+      <div class="left_navi01"><a href="../products/instrument.html"><img src="../images/cmn/lnavi_musical_instrument.gif" alt="楽器・オーディオ" width="144" height="28" class="imghover" /></a></div>
+      <div class="left_subnavi">
+        <div class="left_navi02"><a href="../products/instrument.html"><img src="../images/cmn/snavi_instruments.gif" alt="楽器" width="67" height="14" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/audio.html"><img src="../images/cmn/snavi_audio.gif" alt="オーディオ" width="99" height="14" class="imghover" /></a></div>
+      </div>
+    </div>
+    <div class="left_contact">
+      <h3><img src="../images/cmn/lefttitle_contact.jpg" width="210" height="29" alt="お問い合わせ" /></h3>
+      <div class="pc"><img src="../images/cmn/header_phone.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:30～19:00" width="208" height="63" ></div>
+      <div class="nonpc a-img"><a href="tel:0120531017"><img src="../images/cmn/header_phone_s.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:30～19:00" width="208" height="66" ></a></div>
+      <h4 class="left_contact_bottom"><img src="../images/cmn/header_title_mail.gif" width="153" height="14" alt="メールでのお問い合わせ" /></h4>
+      <div class="left_mailbtnarea"> <img src="../images/cmn/left_mail_txt.gif" width="125" height="24" alt="24時間受付OK、営業時間外はコチラから！" />
+        <div class="tc a-img"><a href="./form/index.php"><img src="../images/cmn/btn_contact02.jpg" width="180" height="29" alt="お問い合わせ" /></a></div>
+        <div class="tr"><img src="../images/cmn/left_mail_address.gif" width="139" height="14" alt="def1011@gamma.ocn.ne.jp" /></div>
+      </div>
+    </div>
+  </div>
+  <!-- /.sidebar -->
+<!-- TemplateEndEditable -->
+</div>
+<!-- /.side-left-parts -->
+
+
+
+
+
+<!-- #MAIN -->
+<div id="main">
+<!-- TemplateBeginEditable name="contents" -->
+
+
+
+
+
+
+<!-- TemplateEndEditable -->
+
+
+<div class="tc a-img mt25 nonpc"><a href="tel:0120531017"><img src="../images/cmn/btn_action_sp.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:30～19:00" width="300" height="68" ></a></div>
+
+
+
+</div>
+<!-- /#MAIN -->
+
+
+<div id="side-right-box">
+
+<!-- .side-left-parts -->
+<div class="side-left-parts nonpc">
+<!-- TemplateBeginEditable name="sideLeftForNonPc" -->
+  <div class="sidebar a-img">
+    <ul class="left_banner">
+      <li><a href="https://www.a-zrecycle.com/blog/archives/13232"><img src="../images/cmn/leftbanner_magazine.jpg" width="210" height="141" alt="雑誌に掲載されました" class="imghover" /></a></li>
+      <li><a href="https://www.a-zrecycle.com/blog/archives/18700"><img src="../images/cmn/leftbanner_tv.jpg" width="210" height="141" alt="テレビでも紹介されました" class="imghover" /></a></li>
+      <li><a href="https://www.a-zrecycle.com/blog/archives/18707"><img src="../images/cmn/leftbanner_vintage.jpg" width="210" height="113" alt="ヴィンテージ家具の輸入も行なっております" class="imghover" /></a></li>
+      <li class="text_banner">
+        <p>目黒区・港区・渋谷区・<br />
+          世田谷区など・・・</p>
+      </li>
+    </ul>
+    <div id="left_navi">
+      <div><img src="../images/cmn/title_lnavi.gif" alt="取扱商品" width="210" height="30" /></div>
+      <div class="left_navi01"><a href="../products/index.html"><img src="../images/cmn/lnavi_electronics.gif" alt="家電" width="63" height="22" class="imghover" /></a></div>
+      <div class="left_navi01"><a href="../products/design_furniture.html"><img src="../images/cmn/lnavi_furniture.gif" alt="家具" width="63" height="29" class="imghover" /></a></div>
+      <div class="left_subnavi">
+        <div class="left_navi02"><a href="../products/bed.html"><img src="../images/cmn/snavi_bed.gif" alt="ベッド" width="73" height="14" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/antique.html"><img src="../images/cmn/snavi_antic_furniture.gif" alt="北欧ミッドセンチュリー" width="181" height="15" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/design_furniture.html"><img src="../images/cmn/snavi_design_furniture.gif" alt="デザイナーズ家具" width="181" height="14" class="imghover" /></a></div>
+      </div>
+      <div class="left_navi01"><a href="../products/bicycle.html"><img src="../images/cmn/lnavi_bicycle.gif" alt="自転車" width="86" height="20" class="imghover" /></a></div>
+      <div class="left_navi01"><a href="../products/instrument.html"><img src="../images/cmn/lnavi_musical_instrument.gif" alt="楽器・オーディオ" width="144" height="28" class="imghover" /></a></div>
+      <div class="left_subnavi">
+        <div class="left_navi02"><a href="../products/instrument.html"><img src="../images/cmn/snavi_instruments.gif" alt="楽器" width="67" height="14" class="imghover" /></a></div>
+        <div class="left_navi02"><a href="../products/audio.html"><img src="../images/cmn/snavi_audio.gif" alt="オーディオ" width="99" height="14" class="imghover" /></a></div>
+      </div>
+    </div>
+    <div class="left_contact">
+      <h3><img src="../images/cmn/lefttitle_contact.jpg" width="210" height="29" alt="お問い合わせ" /></h3>
+      <div class="pc"><img src="../images/cmn/header_phone.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:30～19:00" width="208" height="63" ></div>
+      <div class="nonpc a-img"><a href="tel:0120531017"><img src="../images/cmn/header_phone_s.gif" alt="お電話でのお問い合わせ:フリーダイヤル0120-531-017 受付時間：9:30～19:00" width="208" height="66" ></a></div>
+      <h4 class="left_contact_bottom"><img src="../images/cmn/header_title_mail.gif" width="153" height="14" alt="メールでのお問い合わせ" /></h4>
+      <div class="left_mailbtnarea"> <img src="../images/cmn/left_mail_txt.gif" width="125" height="24" alt="24時間受付OK、営業時間外はコチラから！" />
+        <div class="tc a-img"><a href="./form/index.php"><img src="../images/cmn/btn_contact02.jpg" width="180" height="29" alt="お問い合わせ" /></a></div>
+        <div class="tr"><img src="../images/cmn/left_mail_address.gif" width="139" height="14" alt="def1011@gamma.ocn.ne.jp" /></div>
+      </div>
+    </div>
+  </div>
+  <!-- /.sidebar -->
+<!-- TemplateEndEditable -->
+</div>
+<!-- /.side-left-parts -->
+
+
+
+<!-- SIDE_RIGHT -->
+<!-- PC,nonPC -->
+<div id="side-right-parts">
+<div class="sidebar">
+	<div class="mb10 a-img"><a href="../form/index.php"><img src="../images/cmn/rightbanner_contact.jpg" width="210" height="150" alt="申し込み" /></a></div>
+	<div class="mb10 a-img"><a href="https://www.a-zrecycle.com/blog/archives/18761"><img src="../images/cmn/rightbanner_voice.jpg" width="210" height="101" alt="ご利用いただいたお客様の声" /></a></div>
+	<div class="mb10 a-img"><a href="https://www.a-zrecycle.com/blog/"><img src="../images/cmn/bt_blog.gif" alt="ブログ" width="210" height="101" /></a>
+	</div>
+
+	<div><img src="../images/cmn/rnavi_faq.gif" alt="よくあるご質問" width="210" height="31" /></div>
+	<div class="right_faq">
+		<div class="right_f"><img src="../images/cmn/ico_question.gif" alt="" width="14" height="14" />　<a href="../faq/index.html#q1">買取していない物はありますか？</a></div>
+		<div class="right_f"><img src="../images/cmn/ico_question.gif" alt="" width="14" height="14" />　<a href="../faq/index.html#q2">郵送は、本当に無料ですか？</a></div>
+		<div class="right_f"><img src="../images/cmn/ico_question.gif" alt="" width="14" height="14" />　<a href="../faq/index.html#q3">どこまで出張買取に来れますか？</a></div>
+	</div>
+
+	<div class="mb10 a-img"><a href="https://www.a-zrecycle.com/blog/archives/22541"><img src="../images/cmn/staff_bnr.png" width="210" height="121" alt="スタッフ募集" /></a></div>
+
+	<div><img src="../images/cmn/rnavi_map.gif" alt="窓口のご案内" width="210" height="31" /></div>
+	<div class="right_shop mb10">
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="right_shop_td03"><a href="../about/index.html#shop1"><img src="../images/cmn/img_shop2.gif" alt="買取りセンター" width="94" height="94" class="imghover" /></a></td>
+			</tr>
+			<tr>
+				<td class="right_shop_td04"><a href="../about/index.html#shop1">【a door アドア東京　世田谷買取センター】</a></td>
+			</tr>
+			<tr>
+				<td class="right_shop_td03">「店頭買取」「郵送買取」「出張買取」対応中!!</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="fb_timeline">
+		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fadoortokyo&amp;width=210&amp;height=330&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;show_border=true&amp;header=true&amp;appId=203721442990477" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:210px; height:330px;" allowTransparency="true"></iframe>
+	</div>
+
+</div><!-- /.sidebar -->
+</div><!-- /#side-right-parts -->
+</div><!-- /#side-right-box -->
+
+
+
+
+</div><!-- /#contents-box -->
+
+
+
+
+<!-- TemplateBeginEditable name="idx-footer-area" -->
+<!-- TemplateEndEditable -->
+
+
+
+
+<!-- box-action --><!-- #BeginLibraryItem "/Library/box_action.lbi" -->
+
+<div class="box-action">
+<img src="../images/cmn/btn_action_txt.gif" width="234" height="50" alt="買取に関するお問い合わせはお気軽にこちらからどうぞ" class="float-l mr20">
+<img src="../images/cmn/btn_action_phone.gif" width="300" height="50" alt="フリーダイヤル0120-531-017 受付時間：9:30～19:00" class="float-l pc">
+<div class="layout-left nonpc clear tc"><a href="tel:0120531017" class="mt15"><img src="../images/cmn/btn_action_sp.gif" width="300" height="68" alt="フリーダイヤル0120-531-017 受付時間：9:30～19:00"></a></div>
+<div class="float-r"><a href="../form/index.php"><img src="../images/cmn/btn_action_mail.gif" width="140" height="50" alt=""></a></div>
+</div>
+<!-- #EndLibraryItem --><!-- /box-action -->
+
+
+
+<!-- TemplateBeginEditable name="idx-footer-area2" -->
+<!-- TemplateEndEditable -->
+
+
+</div><!-- /#contents-area -->
+
+
+<div id="footer">
+<div id="footer-area">
+
+<p id="page-top"><a href="#top"> &uarr; PAGE TOP</a></p>
+
+
+<div id="footer-menu">
+<div id="footer-link">
+
+<div id="footer_navi">取扱商品：
+<a href="../products/index.html">家電買取</a>
+、<a href="../products/design_furniture.html">家具買取</a>
+[<a href="../products/bed.html">ベッド</a>
+、<a href="../products/antique.html">北欧ミッドセンチュリー</a>
+、<a href="../products/design_furniture.html">デザイナーズ家具</a>
+]
+ <a href="../products/bicycle.html">自転車</a>
+ <a href="../products/instrument.html">楽器買取</a>
+・<a href="../products/audio.html">オーディオ</a>
+・<a href="https://www.a-zrecycle.com/">家具買取のadoor HOME</a>
+</div>
+
+</div>
+</div>
+
+<div id="footer-copyright">
+</div>
+
+<div id="copy">
+<img src="../images/cmn/copyright.gif" width="321" height="11" class="float-l" />
+<div id="navi_company">
+<img src="../images/cmn/ico_bottom_arrow.gif" width="11" height="9" /> <a href="../about/index.html">会社概要</a><br>
+<img src="../images/cmn/ico_bottom_arrow.gif" width="11" height="9" /> <a href="../sitemap.html">サイトマップ</a>
+</div>
+</div>
+
+
+</div><!-- /#footer-area -->
+</div><!-- /#footer -->
+
+
+</div><!-- /#page -->
+
+
+</body>
+</html>

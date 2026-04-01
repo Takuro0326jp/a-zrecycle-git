@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* ------------ all ------------ */
+.mainimg_area {
+	margin-bottom:15px;
+	width:900px;
+}
+#pankuzu {
+	width:890px;
+	height:15px;
+	padding:5px 0 0 10px;
+	background-color:#F0EDEA;
+	font-size:11px;
+	color:#3B3938;
+	margin-bottom:14px;
+}
+
+/* ------------ index ------------ */
+#mainframe{
+border:1px solid #949392;
+margin:10px 0 0 0;
+padding:6px 12px 10px 10px;
+}
+
+#mainframe{  /* for IE6 bug fix */
+*padding:10px 12px 10px 10px;
+}
+
+.cell{
+background:#f7efe1;
+color:#3b3938;
+border-right:1px solid #c6b8a9;
+border-left:1px solid #c6b8a9;
+margin-top: 3px;
+padding-bottom: 2px;
+}
+
+#lastcell {
+background:#f7efe1;
+color:#3b3938;
+border-right:1px solid #c6b8a9;
+border-left:1px solid #c6b8a9;
+border-bottom:1px solid #c6b8a9;
+margin-top: 3px;
+padding-bottom: 5px;
+}
+
+.leftsidecell{
+float:left;
+margin:-8px 0 0 -10px;
+position: relative;
+zoom: 1;
+}
+
+.rightsidecell{
+background:#f7efe1;
+border-top:1px solid #c6b8a9;
+float:left;
+width:214px;
+padding:7px 10px 0 10px;
+font-size:12px;
+line-height:1.5;
+}
+
+.titlecell{
+font-weight:bold;
+font-size:12px;
+}
+
+.bottoncell{
+background:url(../images/bg_cell_bottom.gif) no-repeat;
+width:406px;
+height:11px;
+}
+
+

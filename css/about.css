@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+
+.frame {
+background:#fffbeb;
+border:1px solid #949392;
+color:#3b3938;
+margin-top:10px;
+padding:0 13px 10px 13px;
+}
+
+
+.frame {  /*  for IE6 bug fix */
+padding:10px 13px 10px 13px;
+}
+
+.cell {
+border-bottom:1px dotted #000000;
+padding:8px 20px 15px 8px;
+}
+
+.firstCell {
+border-bottom:1px dotted #000000;
+padding:10px 20px 0 0;
+margin-bottom:6px;
+}
+
+
+.lastCell {
+padding:10px 20px 0 8px;
+}
+
+* html div.cell {
+padding:18px 20px 15px 8px;
+}
+
+* html div.lastCell {
+padding:18px 20px 10px 8px;
+}
+
+.cell table{
+margin-top:10px;
+}
+
+div#main td.cellTitle {
+font-weight:bold;
+vertical-align:top;
+width:105px;
+font-size:12px;
+}
+
+
+div#main .note {
+	font-size: 70%;
+	font-weight: normal;
+}
+
+div#main .mapText {
+	background: #CCCCCC;
+	text-align: center;
+	padding: 125px 0;
+}
+.cell_td {
+	font-size:12px;
+	color:#191919;
+	line-height:1.5;
+}
+.map_small {
+	padding-top:5px;
+	font-size:10px;
+}

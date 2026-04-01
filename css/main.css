@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* ------------ all ------------ */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: none;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+h1 {
+	font-size:11px;
+	color:#3B3938;
+	font-weight:normal;
+	float:left;
+	padding-top:7px;
+}
+h2 {
+	font-size:18px;
+	color:#191919;
+}
+p {
+	font-size: 12px;
+	line-height: 1.7;
+	color:#191919;
+}
+a:link {
+	color: #191919;
+	text-decoration: underline;
+}
+a:visited {
+	color: #191919;
+	text-decoration: underline;
+}
+a:hover {
+	color: #191919;
+	text-decoration: none;
+}
+#all {
+	width:900px;
+	margin:0 auto;
+}
+#contents {
+	width:430px;
+	padding-left:25px;
+	padding-bottom:35px;
+	float:left;
+}
+
+/* ------------ header ------------ */
+.h1_area {
+	width:900px;
+	height:24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #949392;
+}
+.favorite {
+	float:right;
+	padding-top:4px;
+}
+.logo_area {
+	float:left;
+	font-size:10px;
+	color:#3B3938;
+	padding-top:3px;
+}
+.logo {
+	margin-top:3px;
+}
+.tel {
+	padding-top:15px;
+	float:right;
+}
+
+/* ------------ navi ------------ */
+#navi {
+	width:900px;
+	padding-top:15px;
+	padding-bottom:32px;
+}
+.navi_bt {
+	margin-right:42px;
+}
+
+/* ------------ mainimg ------------ */
+#mainimg {
+	width:900px;
+	font-size:12px;
+	color:#3B3938;
+}
+.mainimg_bg {
+	margin-top:3px;
+	margin-bottom:25px;
+	background-image:url(../images/top/main_img.gif);
+	background-repeat:no-repeat;
+	width:900px;
+	height:261px;
+	text-align:right;
+	padding-top:40px;
+}
+.mainimg_navi {
+	margin-top:6px;
+}
+
+/* ------------ left ------------ */
+#left {
+	width:210px;
+	float:left;
+	padding-bottom:35px;
+}
+#left_navi {
+	padding-top:18px;
+}
+.left_subnavi {
+	border-bottom: 1px solid #949392;
+	padding-bottom: 5px;
+}
+.left_navi01 {
+	padding: 10px 0 5px 5px;
+	border-bottom: 1px solid #949392;
+}
+.left_navi02 {
+	padding: 10px 0 5px 20px;
+}
+#left_navi2 {
+	background-image:url(../images/bg_lnav_block2.gif);
+	background-repeat:no-repeat;
+	width:201px;
+	height:190px;
+	padding-top:68px;
+	padding-left:9px;
+}
+.left_navi03 {
+	margin-bottom:7px;
+}
+
+/* ------------ right ------------ */
+#right {
+	width:210px;
+	float:right;
+	padding-bottom:35px;
+}
+.right_faq {
+	width:198px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #949392;
+	border-bottom-color: #949392;
+	border-left-color: #949392;
+	padding:0 5px 5px;
+	margin-bottom:10px;
+}
+.right_f {
+	width:198px;
+	border-bottom: 1px solid #949392;
+	padding: 5px 0;
+	font-size:12px;
+	color:#191919;
+}
+.right_shop {
+	width:198px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #949392;
+	border-bottom-color: #949392;
+	border-left-color: #949392;
+	padding:10px 5px;
+}
+.right_shop_td01 {
+	width:98px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #949392;
+	padding-bottom:3px;
+	font-size:10px;
+	color: #191919;
+	vertical-align:top;
+	line-height:1.5;
+}
+.right_shop_td02 {
+	width:98px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #949392;
+	padding-bottom:3px;
+	font-size:10px;
+	color: #191919;
+	font-weight:bold;
+	vertical-align:top;
+	line-height:1.5;
+}
+.right_shop_td03 {
+	width:94px;
+	padding-left:5px;
+	padding-bottom:3px;
+	font-size:10px;
+	color: #191919;
+	vertical-align:top;
+	line-height:1.5;
+}
+.right_shop_td04 {
+	width:94px;
+	padding-left:5px;
+	padding-bottom:3px;
+	font-size:10px;
+	color: #191919;
+	font-weight:bold;
+	vertical-align:top;
+	line-height:1.5;
+}
+
+/* ------------ top ------------ */
+.top_about {
+	background-image:url(../images/top/title_what_is_adoor.gif);
+	background-repeat:no-repeat;
+	width:410px;
+	height:95px;
+	padding:55px 10px 0 10px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.5;
+	color:#7c726c;
+	margin-bottom:10px;
+}
+.toptxt_orange {
+	color:#E07F00;
+	font-size:16px;
+}
+.top_itemarea {
+	width:418px;
+	padding-left:10px;
+	padding-bottom:10px;
+	border: 1px solid #949392;
+}
+.top_item {
+	margin-right:8px;
+	margin-bottom:8px;
+}
+
+/* ------------ pickup ------------ */
+.footer_waku01 {
+	width:274px;
+	height:270px;
+	float: left;
+	margin-right: 6px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #291A13;
+	border-right-color: #291A13;
+	border-bottom-color: #291A13;
+	border-left-color: #291A13;
+	margin-bottom:6px;
+	padding:10px;
+}
+.footer_waku02 {
+	width:274px;
+	height:270px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #291A13;
+	border-right-color: #291A13;
+	border-bottom-color: #291A13;
+	border-left-color: #291A13;
+	margin-bottom:6px;
+	padding:10px;
+}
+.footer_waku_photo {
+	float:left;
+	width:135px;
+}
+.footer_waku_txt {
+	font-size:11px;
+	float:right;
+	width:139px;
+	line-height:1.2;
+	color:#291A13;
+}
+
+/* ------------ footer ------------ */
+.totop {
+	text-align:right;
+	padding:10px 0;
+	font-size:10px;
+}
+#footer_navi {
+	width:900px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #949392;
+	padding-bottom:2px;
+	font-size:11px;
+	color:#191919;
+}
+#copy {
+	padding:10px 0;
+	margin-bottom:15px;
+}
+.copyright {
+	float:left;
+}
+.navi_company {
+	float:right;
+	font-size:12px;
+	color:#333;
+}
+
+/* ------------ decoration ------------ */
+a:hover .imghover, a:hover img.top_item {
+	filter:alpha(opacity=60) !important;
+	opacity:0.6 !important;
+}
+.mag_b10 {
+	padding-bottom:10px;
+}
+.bold {
+	font-weight:bold;
+}

@@ -1,0 +1,315 @@
+@charset "utf-8";
+
+/* ****************************************************
+Title: top.css
+Created: 2010-09-01
+Last Modified: 2011-01-14
+Editor(s): alex
+Last Editor: tsutsu
+***************************************************** */
+
+
+/* Table Of Contents
+----------------------------------------
+
+# General Elements
+# gNav
+# pageBody
+# header
+# content
+# sidebar
+# clearfix
+# common classes
+
+----------------------------------------*/
+
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+
+
+/* # gNav
+---------------------------------------------------------------------------- */
+ul#gNav {
+	clear: both;
+}
+
+ul#gNav li#gNavHome a img {
+	visibility: hidden;
+}
+
+
+/* # pageBody
+---------------------------------------------------------------------------- */
+
+div#pageBody {
+	clear: both;
+	margin-top: 0;
+}
+
+
+/* # header
+---------------------------------------------------------------------------- */
+
+*html div#headerInner address{ /* bug IE6 */
+	margin-top: -5px;
+}
+
+*:first-child+html div#headerInner address{ /* bug +IE7 */
+	margin-top:-5px;
+}
+
+
+/* # visual
+---------------------------------------------------------------------------- */
+div#visual{
+margin-bottom:26px;
+background:url(../images/topvisual.gif);
+
+padding:46px 0 12px 629px;
+}
+
+div#visual div {
+margin-bottom:5px;
+}
+
+div#visual a {
+background-position: left top;
+background-repeat: no-repeat;
+display: block;
+}
+
+div#visual a:hover {/* for IE6 bug fix */
+overflow: hidden;
+}
+
+div#visual a:hover img {
+visibility: hidden;
+}
+
+div#visual div#topvisual_house a { background-image: url(../images/img_topvisual_right_house_o.gif); }
+div#visual div#topvisual_package a { background-image: url(../images/img_topvisual_right_package_o.gif);  }
+div#visual div#topvisual_transport a { background-image: url(../images/img_topvisual_right_transpo_o.gif); }
+
+
+/* # lNav
+---------------------------------------------------------------------------- */
+
+div#lNav{
+width:210px;
+float:left;
+}
+
+div#lNav div.boxLnav{
+padding:10px 0 5px 5px;
+border-bottom:1px solid #949392;
+}
+
+div#lNav div.sNav {
+border-bottom:1px solid #949392;
+padding-bottom:5px;
+}
+
+div#lNav div.boxSnav {
+padding:10px 0 5px 20px;
+
+}
+
+
+div#lNav a {
+background-position: left top;
+background-repeat: no-repeat;
+display: block;
+}
+
+div#lNav a:hover {/* for IE6 bug fix */
+overflow: hidden;
+}
+/*
+div#lNav a:hover img {
+visibility: hidden;
+}
+*/
+div#lNav div#lnavi_electronics a { background-image: url(../common/images/lnavi_electronics_o.gif); }
+div#lNav div#lnavi_furniture a { background-image:url(../common/images/lnavi_furniture_o.gif) }
+div#lNav div#snavi_bed a { background-image: url(../common/images/snavi_bed_o.gif);  }
+div#lNav div#snavi_antic_furniture a { background-image: url(../common/images/snavi_antic_furniture_o.gif); }
+div#lNav div#snavi_furniture a { background-image: url(../common/images/snavi_furniture_o.gif); }
+div#lNav div#snavi_design_furniture a { background-image: url(../common/images/snavi_design_furniture_o.gif); }
+div#lNav div#lnavi_bicycle a { background-image: url(../common/images/lnavi_bicycle_o.gif); }
+div#lNav div#lnavi_bicycle2 a { background-image: url(../common/images/kagu_o.jpg); }
+div#lNav div#lnavi_musical_instrument a { background-image: url(../common/images/lnavi_musical_instrument_o.gif); }
+div#lNav div#snavi_instruments a { background-image: url(../common/images/snavi_instruments_o.gif);  }
+div#lNav div#snavi_audio a { background-image: url(../common/images/snavi_audio_o.gif);  }
+
+
+/* # content
+---------------------------------------------------------------------------- */
+h1 {
+	float: left;
+	width: 190px;
+}
+
+div#content {
+float:left;
+width:430px;
+margin: 0 23px;
+}
+
+
+div#content div#adoorProducts{
+border:1px solid #949392;
+margin:10px 0 10px 0;
+padding:0 0 6px 12px;
+}
+
+div#content div#titleProduct{
+overflow:hidden;
+}
+
+div#content div#productBlocks{
+
+}
+
+div#content div.rowBlocks{
+margin-bottom:6px;
+}
+
+div#content div.rowBlocks div{
+float: left;
+margin-right: 6px;
+width:200px;
+}
+
+div#content div.rowBlocks a {
+background-position: left top;
+background-repeat: no-repeat;
+display: block;
+}
+
+div#content div.rowBlocks a:hover {/* for IE6 bug fix */
+overflow: hidden;
+}
+
+div#content div.rowBlocks a:hover img {
+visibility: hidden;
+}
+
+div#content div.rowBlocks div#img_home_electronics a { background-image: url(../images/img_home_electronics_o.gif); }
+div#content div.rowBlocks div#img_design_furniture a { background-image: url(../images/img_design_furniture_o.gif); }
+div#content div.rowBlocks div#img_bicycle a { background-image: url(../images/img_bicycle_o.gif); }
+div#content div.rowBlocks div#img_musical_instrument a { background-image: url(../images/img_musical_instrument_o.gif); }
+
+/* # sidebar
+---------------------------------------------------------------------------- */
+
+div#sidebar {
+float:right;
+width:210px;
+
+}
+
+div#sidebar div.sell_sideBlocks{
+margin-bottom:10px;
+}
+
+
+div#sidebar div.sell_sideBlocks a {
+background-position: left top;
+background-repeat: no-repeat;
+ background-image: url(../common/images/img_rnavi_sell_items_o.gif);
+display: block;
+}
+
+div#sidebar div.sell_sideBlocks a:hover {/* for IE6 bug fix */
+overflow: hidden;
+}
+
+div#sidebar div.sell_sideBlocks a:hover img {
+visibility: hidden;
+}
+
+
+div#sidebar div.sideBlocks{
+margin-bottom:10px;
+border:1px solid #949392;
+overflow:hidden;
+}
+
+
+div#sidebar div.sideBlocks div.sideBlocksQuestions{
+background:url(../images/ico_question.gif) no-repeat;
+padding:0 0 0 20px;
+margin:5px 5px 0 5px;
+border-bottom:1px solid #c8c7c7;
+}
+
+div#sidebar div.sideBlocks div.sideBlocksQuestions_last{
+background:url(../images/ico_question.gif) no-repeat;
+padding:0 0 0 20px;
+margin:5px 5px 2px 5px;
+}
+
+div#sidebar div.sideBlocks div#adoorBlogLogo{
+text-align:center;
+margin:30px auto;
+}
+
+div#sidebar div.sideBlocks table#mapTable{
+margin:10px auto;
+
+}
+
+div#sidebar div.sideBlocks table#mapTable td{
+padding:0 5px;
+color:#3b3938;
+vertical-align:top;
+}
+
+
+div#sidebar div.sideBlocks table#mapTable .mapTableLeft{
+border-right: solid 1px #c8c7c7;
+
+}
+
+
+div#sidebar div.sideBlocks table#mapTable .mapTableRight{
+border-left: solid 1px #c8c7c7;
+
+}
+
+div#sidebar div.sideBlocks table#mapTable .mapTableSubtitle{
+font-size:0.8em;
+font-weight:bold;
+}
+
+div#sidebar div.sideBlocks table#mapTable .mapTableText{
+font-size:0.8em;
+}
+
+
+/* # footer
+---------------------------------------------------------------------------- */
+
+
+
+/* # clearfix
+---------------------------------------------------------------------------- */
+
+div#content div.rowBlocks {
+	zoom: 1;
+}
+
+div#content div.rowBlocks:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+
+/* # common classes
+---------------------------------------------------------------------------- */
+

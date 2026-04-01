@@ -1,0 +1,1816 @@
+@charset "utf-8";
+/*** 共通で使用 ***/
+*{
+  box-sizing:border-box;}
+h1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;}
+h2, h3 {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;}
+h3{margin:20px 0px 0px 0px;}
+img {border: 0px;padding:0px;margin:0px 0px 0px 0px;}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both; }
+.clearboth{
+  clear:both;}
+a {margin: 0px;padding: 0px;}
+ul{margin:0px;padding:0px;list-style-type: none;}
+li{margin:0px;padding:0px;	}
+.right{float:right;	}
+.kaitoriright{float:left;width:49%;}
+.left{float:left;}
+.kaitorileft{float:left;width:49%;}
+.center{text-align:center;}
+p{margin:0px;padding:0px;}
+
+.onlypc{display:block;}
+.onlypcinline{display:inline!important;}
+.onlytb{display:none;}
+.onlytbinline{display:none;}
+.onlyhp{display:none;}
+.onlyhpinline{display:none;}
+/* --------------------------------------------- */
+/* ▼PCファースト (全環境に共通のデザイン) */
+/* --------------------------------------------- */
+/* body *--------------*/
+body{
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: "palt";
+  font-size: 13px;
+  background-color:#E1ECFE;
+  max-width: 1280px;
+  min-width: 320px;
+  width:1280px;
+  }
+/* ヘッダー*/
+.header{
+  position:relative;
+  margin: 0;
+  padding: 0;
+  width: 1280px;
+  height: auto;
+  background-color:#000;
+  }
+.headerimg{
+  position: absolute;
+  left:20%;
+  display:block;
+  width: 820px;
+  height:auto;
+  margin:0 auto;
+}
+.headertxt{
+  position: relative;
+  top: 0;
+  text-align: left;
+  padding: 0 0 0 34%;
+  width: 100%;
+  height: auto;
+  font-size: 22px;
+  color: #fff;
+  font-weight:bold;
+  }
+.fontl{
+  font-size:32px;
+}
+/* main*/
+/* Top*/
+.top {
+  position:relative;
+  margin:0 0 0 0;
+  padding: 0 0 5% 0;
+  text-align:center;
+  width: 1280px;
+  background-color:#fff;
+}
+.topimg1{
+  width:100%;
+  height:auto;
+  }
+.toptxt1,.toptxt2,.toptxt3{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  text-align: left;
+  padding: 0 0 0 19%;
+  color: #927A3C;
+  }
+.toptxt1{
+  font-size: 36px;
+  font-weight:bold;
+  top: 0;
+  }
+.toptxt2{
+  font-size:86px;
+  top:9%;
+  font-weight:bold;
+  line-height:1.0;
+  }
+.toptxt2 span{
+  font-size:120px;
+  }
+.toptxt4,.toptxt5{
+  position: absolute;
+  font-weight: bold;
+  color: #8E0300;
+  text-shadow: 2px 2px 1px #fff,
+              -2px 2px 1px #fff,
+               2px -2px 1px #fff,
+              -2px -2px 1px #fff;
+  }
+.toptxt4{
+  font-size: 32px;
+  top: 54%;
+  left: 52%;
+  }
+.toptxt5{
+  font-size: 32px;
+  top: 58%;
+  left: 51%;
+  }
+.fontl2{
+  font-size: 92px;
+  font-family: "MS PGothic";
+  }
+
+/*お悩み疑問*/
+.section2{
+    position: relative;
+    width: 1280px;
+    height: auto;
+    background-color: #fff;
+    padding: 0 0 0 0;
+}
+.sec2img1{
+  width: 820px;
+  height:auto;
+  margin:0 auto 0 auto;
+  }
+.sec2txt1{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 80%;
+    padding: 0 0 0 25%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+.title-border {
+    display: flex;
+    align-items: center;
+}
+.title-border:before,
+.title-border:after {
+    border-top: 1px solid;
+    content: "";
+    flex-grow: 1;
+}
+.title-border:before {
+    margin-right: 1rem;
+}
+.title-border:after {
+    margin-left: 1rem;
+}
+.sec2txt2{
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  padding: 0 0 0 20%;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: left;
+}
+.fontl5{
+  font-size: 52px;
+  background-color: #000;
+  color:#fff;
+}
+.sec2img2{
+  display:inline;
+  width:12%;
+  height:auto;
+    margin: 0 0 -5% 0;
+}
+.sec2txt3,.sec2txt4,.sec2txt5,.sec2txt6,.sec2txt7,.sec2txt8{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+    background-color:rgba(255,255,255,0.5);}
+.sec2txt3{
+    top: 30%;
+    width: 32%;
+    margin: 0 0 0 42%;}
+.sec2txt4{
+  top:36%;
+    width: 26%;
+    margin: 0 0 0 45%;}
+.sec2txt5{
+  top:42%;
+    width: 28%;
+    margin: 0 0 0 42%;}
+.sec2txt6{
+  top:48%;
+    width: 28%;
+    margin: 0 0 0 45%;}
+.sec2txt7{
+  top:54%;
+    width: 28%;
+    margin: 0 0 0 42%;}
+.sec2txt8{
+  top:60%;
+    width: 28%;
+    margin: 0 0 0 45%;}
+.under{
+  background: linear-gradient(transparent 50%, #EFD365 50%);
+  }
+.sec2img3{
+  width:100%;
+  height:auto;}
+.sec2txt9{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.fontl6{
+      font-size: 26px;
+}
+.fontl4{
+      font-size: 26px;
+      color:#FAE371;
+}
+/*アドアって*/
+.section3{
+  position:relative;
+  width:1280px;
+  height:auto;
+  background-color:#fff;
+}
+.sec3img1wrap{
+  position:relative;
+  }
+.sec3img1{
+    width: 64%;
+    height: auto;
+    margin: -9% auto 0 auto;
+}
+.sec3img2{
+  width:100%;
+  height:auto;
+  }
+.sec3txt1{
+  position:relative;
+  top:20%;
+  left:0;
+  width:64%;
+  height:auto;
+  margin:0 18% 0 18%;
+  font-size:28px;
+  font-weight:bold;
+  text-align:left;
+  z-index: 10;
+}
+.sec3txt2{
+  position:relative;
+  top:25%;
+  left:0;
+  width:64%;
+  height:auto;
+  margin: 2% 18% 0 18%;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+}
+.under3{
+  background: linear-gradient(transparent 50%, #FFEA73 50%);
+  }
+.sec3txt3{
+position: absolute;
+    top: 10%;
+    left: 0;
+    padding: 5% 2% 3% 2%;
+    margin: 0 0 0 20%;
+    width: 30%;
+    height: auto;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: left;
+    background-color: rgba(255,255,255,0.8);
+    max-height: 500px;
+    overflow: hidden;
+}
+.sec3txt4{
+    right: 20%;
+    position: absolute;
+    top: 80%;
+    margin: 0 0 0 0%;
+    width: auto;
+    max-width: 750px;
+    overflow:hidden;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+/*選ばれる理由*/
+.section4{
+  position:relative;
+  width:100%;
+  height:auto;
+  background-color:#fff;
+  padding: 0 0 3% 0;
+}
+.sec4img1wrap{
+  position:relative;
+}
+.sec4img1wrap span{
+  font-size: 42px;
+  font-weight:bold;
+}
+.sec4txt1,.sec4txt2,.sec4txt3{
+  position:absolute;
+  bottom:13%;
+  left:0;
+  color:#fff;
+  font-size: 22px;
+}
+.sec4txt1{
+  left:23%;
+}
+.sec4txt2{
+  left:46%;
+}
+.sec4txt3{
+  left:68%;
+}
+.sec4wrap{
+  width:64%;
+  height:auto;
+  margin:0 auto;
+}
+.sec4resonwrap,.sec4resonwrap2{
+  width:32%;
+  height:auto;
+  float:left;
+}
+.sec4resonwrap{
+  margin:0 1.5% 0 0;
+}
+.sec4resonwrap2{
+  margin:0 0 0 0;
+}
+.sec4reasontxt1{
+    font-size: 32px;
+    line-height: 1;
+    font-weight: bold;
+    border-bottom: 1px black solid;
+}
+.sec4reasontxt2,.sec4reasontxt3{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 2;
+}
+.sec4img1{
+    width: 64%;
+    height: auto;
+    margin:0 auto;
+  }
+.sec4img2{
+  width:100%;
+  height:auto;
+  }
+.under2{
+  background:#FCF07A;
+  }
+/*取扱商品*/
+.section5{
+  position:relative;
+  width:100%;
+  height:auto;
+  background-color: #000;
+}
+.sec5img1{
+  width:64%;
+  height:auto;
+  }
+.sec5txt1{
+  position:absolute;
+  width:64%;
+  height:auto;
+  top:5%;
+  left:18%;
+  color:#fff;
+  font-size:32px;
+  border:1px #fff solid;
+}
+.sec5txt2,.sec5txt3,.sec5txt4,.sec5txt5{
+  position:absolute;
+  top:40%;
+  color:#fff;
+  font-size:18px;
+}
+.sec5txt2{
+  left:19%;
+}
+.sec5txt3{
+  left:37%;
+}
+.sec5txt4{
+  left:52.5%;
+}
+.sec5txt5{
+  left:69%;
+}
+.sec5txt6{
+  position:absolute;
+  top:90%;
+    top: 82%;
+    left: 50%;
+  color:#fff;
+  font-size:18px;
+}
+.sec5txt6span{
+  color:#FFEA76;
+}
+/*買取の流れ*/
+.section6{
+    width: 100%;
+    height: auto;
+    padding: 3% 10% 3% 10%;
+    background-color: #fff;
+}
+.sec6txt1{
+    width: 80%;
+    margin: 0 auto 3% auto;
+    font-weight: bold;
+    font-size: 32px;
+    color: #810400;
+    color: #fff;
+    background-color: #816913;
+}
+.sec6step{
+  width:80%;
+  height:auto;
+  margin:0 auto;
+}
+.sec6img1{
+    display: block;
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: 0 3% 0 0;
+  }
+.sec6steptxt1{
+    float: left;
+    width: 72%;
+    height: auto;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    border-left: 5px #866B12 solid;
+    border-bottom: 1px #866B12 solid;
+    padding: 0 0 0 2%;
+  }
+.sec6steptxt2{
+  float:left;
+  width:72%;
+  text-align:left;
+  font-size:14px;
+    padding: 1% 0 0 0;
+  }
+.sec6img2{
+  width:100%;
+  height:auto;
+  }
+.sec6area{
+    width: 80%;
+    height: auto;
+    margin: 3% auto 0 auto;
+    border: 1px solid #000;
+    padding: 2% 3% 2% 3%;
+}
+.sec6areatxt1{
+  font-size:30px;
+  color:#806810;
+  font-weight:bold;
+}
+.sec6areatxt2{
+    font-size: 14px;
+    font-weight: bold;
+  width:100%;
+  background-color:#F2EFE8;
+    margin: 2% 0 1% 0;
+}
+.sec6areatxt3{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sec6areatxt4{
+  font-size:14px;
+    font-weight: bold;
+    margin: 2% 0 0 0;
+}
+/*お問合せ*/
+.contact{
+    width: 100%;
+    height: auto;
+    padding: 3% 10% 3% 10%;
+    background-color: #F5F4EF;
+}
+.contacttxt1{
+    width: 80%;
+    margin: 0 auto 2% auto;
+  height:auto;
+  font-size:28px;
+  text-align:center;
+  color:#fff;
+  font-weight: bold;
+  background-color:#6BBD00;
+  }
+.contactleft{
+  width:60%;
+    padding: 0 0 0 10%;
+  height:auto;
+  float:left;}
+.contacttxt2{
+  width:100%;
+  height:auto;
+  font-size:22px;
+  text-align:left;
+  font-weight:bold;
+  }
+.contacttxt3{
+  width:80%;
+  height:auto;
+  float:left;
+  text-align:left;
+  color: #6BBD00;
+  margin: -2% 0 -3% 2%;
+  }
+.contacttxt3 a{
+  text-decoration:none;
+  color: #6BBD00;
+  font-size:48px;
+  font-weight:bold;
+  }
+.contacttxt4{
+  clear:both;
+  width:100%;
+  height:auto;
+  margin:-2% auto 0 auto;
+  font-size: 16px;
+  font-weight: bold;
+  text-align:left;
+  }
+.contactright{
+  position:relative;
+  width:40%;
+  height:auto;
+  float:left;}
+.contacttxt5{
+  position:absolute;
+  top:0;
+  width:75%;
+  height:auto;
+  font-size:20px;
+  color:#fff;
+  font-weight: bold;
+  }
+.contactimg2{
+  display:block;
+  float:left;
+    width:10%;
+    height:auto;
+    margin: 1% 0 0 0;
+  }
+.contactimg1{
+    display: block;
+    float: left;
+    width:75%;
+    height:auto;
+    margin: 0 0 0 0;
+  }
+/*フォーム*/
+.form{
+  width:100%;
+  height:auto;
+  margin:0 auto;
+  padding: 3% 18% 5% 18%;
+  background-color:#fff;
+}
+.formtxt1{
+  font-size:20px;
+  font-weight: bold;
+}
+.formtxt2{
+  font-size:24px;
+  font-weight:bold;
+  color:#810400;
+}
+.formtxt3{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 1% 0 1% 0;
+  color:#810400;
+  color:#fff;
+  background-color:#816913;
+}
+#formWrap {
+	width:100%;
+	margin:0 auto 5% auto;
+	color:#555;
+	line-height:120%;
+	text-align:left;
+	padding:5% 5% 0 5%;
+  font-size:16px;
+  border:1px black solid;
+}
+#formWrap h3{
+  float:left;
+  margin:0 0 1% 0;
+  font-size:16px;
+  width:auto;
+}
+.required{
+  float:left;
+  border:1px red solid;
+  color:red;
+  font-size:10px;
+    margin: -0.5% 0 0 2%;
+}
+.input{
+  font-size:16px;
+  line-height:1.5;
+  }
+.submitbutton{
+  width:100%;
+  margin:0 auto;
+  font-size:16px;
+  text-align:center;
+  padding:3% 0 3% 0;
+  background-color:#8E0300;
+  color:#ffffff;
+  border:none;
+  border-bottom :2px solid #000;
+}
+.submitbutton:hover {
+  color         : #000066;     /* 背景色     */
+  background    : #7FFFFF;     /* 文字色     */
+}
+.forminputtext{
+    width: 75%;
+    font-size: 20px;
+    line-height: 2.0;
+    margin: 1% 0 0 0;
+    border: 1px solid #000000;
+}
+.forminputtext2{
+    width: 23%;
+    font-size: 20px;
+    line-height:2.0;
+    margin: 1% 0 0 0;
+    border: 1px solid #000000;
+}
+.forminputtext3{
+    width: 26%;
+    font-size: 20px;
+    line-height:2.0;
+    margin: 1% 0 0 0;
+    border: 1px solid #000000;
+}
+.formtextarea{
+  width:100%;
+  min-width: 100px;
+  min-height: 50px;
+  max-width: 100%;
+  max-height: 150px;
+  font-size: 20px;
+    margin: 1% 0 0 0;
+    border: 1px solid #000000;
+}
+input[type=radio] {
+  display: none; /* ラジオボタンを非表示にする */
+}
+.sample_label {
+  position: relative;	/* ボックスの位置を指定する */
+  padding: 0 0 0 42px;	/* ボックス内側の余白を指定する */
+}
+.sample_label:after, .sample_label:before {
+  position: absolute;	/* ボックスの位置を指定する */
+  content: "";	/* ボックスのコンテンツ */
+  display: block;	/* ブロックレベル要素化する */
+  top: 40%;	/* 上部から配置の基準位置を決める */
+}
+.sample_label:after {
+  left: 15px;	/* 左から配置の基準位置を決める */
+  margin-top: -10px;	/* チェック枠の位置 */
+  width: 15px;	/* ボックスの横幅を指定する */
+  height: 15px;	/* ボックスの高さを指定する */
+  border: 3px solid #ccc;	/* ボックスの境界線を実線で指定する */
+  border-radius: 50%;	/* ボックスの角丸を指定する */
+}
+.sample_label:before {
+  left: 20px;	/* 左から配置の基準位置を決める */
+  margin-top: -5px;	/* チェックマークの位置 */
+  width: 11px;	/* ボックスの横幅を指定する */
+  height: 11px;	/* ボックスの高さを指定する */
+  background: #0171bd;/* ボックスの背景色を指定する */
+  border-radius: 50%;	/* ボックスの角丸を指定する */
+  opacity: 0;	/* 要素を透過指定する */
+}
+input[type=radio]:checked + .sample_label:before {
+  opacity: 1;	/* 要素を表示する */
+}
+.sample_label:hover:after {
+  border-color: #0171bd;	/* ボックスの境界線を実線で指定する */
+}
+input::placeholder {
+  color:#C0C0C0;
+}
+/* IE */
+input:-ms-input-placeholder {
+  color:#C0C0C0;
+}
+/* Edge */
+input::-ms-input-placeholder {
+  color:#C0C0C0;
+}
+/* scroll to Top ----------------------------------------------*/
+  #scrollTop{
+    background-color: #eee;
+    bottom:20px;
+    padding:4px;
+    position:fixed;
+    right:20px;
+    font-weight:bold;
+    font-size:20px;}
+#scrollTop a{
+  text-decoration: none;}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+/* --------------------------------------------- */
+/* ▼PCファースト */
+/* --------------------------------------------- */
+.onlypc{display:block;}
+.onlypcinline{display:inline!important;}
+.onlytb{display:none;}
+.onlytbinline{display:none;}
+.onlyhp{display:none;}
+.onlyhpinline{display:none;}
+/* body *--------------*/
+body{
+  width:100%;
+  }
+/* ヘッダー*/
+.header{
+  width:100%;
+  }
+.headerimg{
+  width:64%;
+}
+.headertxt{
+  font-size: calc(16px + ((1vw - 9.80px) * 2));
+  }
+.fontl{
+  font-size: calc(22px + ((1vw - 9.80px) * 2));
+}
+/* main*/
+/* Top*/
+.top {
+  width:100%;
+}
+.toptxt1{
+  font-size: calc(28px + ((1vw - 9.80px) * 2.8));
+  }
+.toptxt2{
+  font-size:86px;
+  font-size: calc(64px + ((1vw - 9.80px) * 7));
+  }
+.toptxt2 span{
+  font-size:120px;
+  font-size: calc(90px + ((1vw - 9.80px) * 8.5));
+  }
+.toptxt4{
+  font-size: 32px;
+  font-size: calc(22px + ((1vw - 9.80px) * 2.8));
+    top: 56%;
+    left: 52%;
+  }
+.toptxt5{
+  font-size: 32px;
+  font-size: calc(22px + ((1vw - 9.80px) * 2.8));
+    top: 60%;
+    left: 51%;
+  }
+.fontl2{
+  font-size: 92px;
+  font-size: calc(54px + ((1vw - 9.80px) * 8));
+
+  }
+
+/*お悩み疑問*/
+.section2{
+    width: 100%;
+}
+.sec2img1{
+  width: 64%;
+  }
+.sec2txt1{
+    font-size: 30px;
+  font-size: calc(20px + ((1vw - 9.80px) * 2.8));
+}
+.sec2txt2{
+  font-size: 42px;
+  font-size: calc(28px + ((1vw - 9.80px) * 3));
+}
+.fontl5{
+  font-size: 52px;
+  font-size: calc(44px + ((1vw - 9.80px) * 2.8));
+}
+
+.sec2txt9{
+    font-size: 22px;
+  font-size: calc(16px + ((1vw - 9.80px) * 2.5));
+
+}
+.fontl6{
+      font-size: 26px;
+  font-size: calc(18px + ((1vw - 9.80px) * 2.5));
+
+}
+.fontl4{
+      font-size: 26px;
+  font-size: calc(20px + ((1vw - 9.80px) * 2.5));
+
+}
+/*アドアって*/
+.section3{
+  width:100%;
+}
+.sec3txt1{
+  font-size:28px;
+  font-size: calc(20px + ((1vw - 9.80px) * 2.5));
+
+}
+.sec3txt2{
+    font-size: 14px;
+  font-size: calc(14px + ((1vw - 9.80px) * 0.5));
+
+}
+.sec3txt3{
+position: absolute;
+    font-size: 14px;
+  font-size: calc(14px + ((1vw - 9.80px) * 0.5));
+}
+.sec3txt4{
+    font-size: 14px;
+  font-size: calc(14px + ((1vw - 9.80px) * 0.5));
+}
+/*選ばれる理由*/
+.sec4img1wrap span{
+  font-size: 42px;
+  font-size: calc(20px + ((1vw - 9.80px) * 2.5));
+
+}
+.sec4txt1,.sec4txt2,.sec4txt3{
+  font-size: 22px;
+}
+.sec4reasontxt1{
+    font-size: 32px;
+  font-size: calc(24px + ((1vw - 9.80px) * 2.5));
+
+}
+.sec4reasontxt2,.sec4reasontxt3{
+    font-size: 12px;
+  font-size: calc(12px + ((1vw - 9.80px) * 0.2));
+
+}
+/*取扱商品*/
+.sec5txt1{
+  font-size:32px;
+  font-size: calc(28px + ((1vw - 9.80px) * 2.5));
+
+}
+.sec5txt2,.sec5txt3,.sec5txt4,.sec5txt5{
+  font-size:18px;
+  font-size: calc(12px + ((1vw - 9.80px) * 1.5));
+
+}
+.sec5txt6{
+  font-size:18px;
+  font-size: calc(14px + ((1vw - 9.80px) * 1.5));
+
+}
+/*買取の流れ*/
+.sec6txt1{
+    font-size: 32px;
+  font-size: calc(28px + ((1vw - 9.80px) * 2.5));
+
+}
+.sec6steptxt1{
+    font-size: 28px;
+  font-size: calc(20px + ((1vw - 9.80px) * 2.5));
+
+  }
+.sec6steptxt2{
+  font-size:14px;
+  font-size: calc(12px + ((1vw - 9.80px) * 0.2));
+
+  }
+.sec6areatxt1{
+  font-size:30px;
+  font-size: calc(24px + ((1vw - 9.80px) * 2.5));
+
+}
+.sec6areatxt2{
+    font-size: 14px;
+  font-size: calc(14px + ((1vw - 9.80px) * 0.2));
+
+}
+.sec6areatxt3{
+    font-size: 12px;
+  font-size: calc(12px + ((1vw - 9.80px) * 0.2));
+
+}
+.sec6areatxt4{
+  font-size:14px;
+  font-size: calc(14px + ((1vw - 9.80px) * 0.2));
+
+
+}
+/*お問合せ*/
+.contacttxt1{
+  font-size:28px;
+  font-size: calc(20px + ((1vw - 9.80px) * 2.5));
+
+  }
+.contacttxt2{
+  font-size:22px;
+  font-size: calc(22px + ((1vw - 9.80px) * 1.3));
+
+  }
+.contacttxt3 a{
+  font-size:48px;
+  font-size: calc(38px + ((1vw - 9.80px) * 2.5));
+
+  }
+.contacttxt4{
+  font-size: 16px;
+  font-size: calc(14px + ((1vw - 9.80px) * 1.8));
+
+  }
+.contacttxt5{
+  font-size:20px;
+  font-size: calc(16px + ((1vw - 9.80px) * 1.8));
+
+  }
+/*フォーム*/
+.formtxt1{
+  font-size:20px;
+  font-size: calc(16px + ((1vw - 9.80px) * 1.8));
+
+}
+.formtxt2{
+  font-size:24px;
+  font-size: calc(18px + ((1vw - 9.80px) * 1.8));
+
+}
+.formtxt3{
+    font-size: 28px;
+  font-size: calc(26px + ((1vw - 9.80px) * 1.8));
+
+}
+#formWrap {
+  font-size:10px;
+}
+#formWrap h3{
+  font-size:14px;
+  font-size: calc(14px + ((1vw - 9.80px) * 1.8));
+}
+.required{
+  font-size:10px;
+}
+.input{
+  font-size:12px;
+  font-size: calc(14px + ((1vw - 9.80px) * 1.8));
+  }
+.submitbutton{
+  font-size:16px;
+}
+.forminputtext{
+    font-size: 20px;
+}
+.forminputtext2{
+    font-size: 20px;
+}
+.forminputtext3{
+    width: 25%;
+    font-size: 20px;
+}
+.formtextarea{
+  font-size: 20px;
+}
+/* scroll to Top ----------------------------------------------*/
+  #scrollTop{
+    font-size:20px;}
+}
+
+/* -------------------------------------------- */
+/* ▼タブレット用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+@media screen and (max-width: 980px) {
+.onlypc{display:none;}
+.onlypcinline{display:none;}
+.onlytb{display:block;}
+.onlytbinline{display:inline;}
+.onlyhp{display:none;}
+.onlyhpinline{display:none;}
+body{
+  width:100%;
+  }
+/* ヘッダー*/
+.header{
+  width: 100%;
+  height: auto;
+  }
+.headerimg{
+  width: 64%;
+  height:auto;}
+.headertxt{
+  font-size: calc(14px + ((1vw - 7.68px) * 1));
+}
+.fontl{
+  font-size: calc(24px + ((1vw - 7.68px) * 1));
+}
+/* main*/
+/* Top*/
+.top {
+  width:100%;
+}
+.topimg1{
+}
+.toptxt1,.toptxt2,.toptxt3{
+  }
+.toptxt1{
+  font-size: calc(22px + ((1vw - 7.68px) * 3));
+  }
+.toptxt2{
+  font-size: calc(48px + ((1vw - 7.68px) * 7));
+  }
+.toptxt2 span{
+  font-size: calc(70px + ((1vw - 7.68px) * 9));
+  }
+.toptxt4,.toptxt5{
+  }
+.toptxt4{
+  font-size: calc(20px + ((1vw - 7.68px) * 2.5));
+  top: 55%;
+  left: 52%;
+  }
+.toptxt5{
+  font-size: calc(20px + ((1vw - 7.68px) * 2.5));
+  top: 60%;
+  left: 51%;
+  }
+.fontl2{
+  font-size: calc(48px + ((1vw - 7.68px) * 2.5));
+  }
+
+/*お悩み疑問*/
+.section2{
+    width: 100%;
+    height: auto;
+}
+.sec2img1{
+  width:64%;
+  height:auto;
+  }
+.sec2txt1{
+    width: 75%;
+    font-size: calc(18px + ((1vw - 7.68px) * 1));
+}
+.title-border {
+}
+.title-border:before,
+.title-border:after {
+}
+.title-border:before {
+}
+.title-border:after {
+}
+.sec2txt2{
+  width: 100%;
+  font-size: calc(20px + ((1vw - 7.68px) * 4));
+}
+.fontl5{
+  font-size: calc(38px + ((1vw - 7.68px) * 3));
+}
+.sec2img2{
+}
+.sec2txt3,.sec2txt4,.sec2txt5,.sec2txt6,.sec2txt7,.sec2txt8{
+  font-size: calc(14px + ((1vw - 7.68px) * 1.8));
+}
+.sec2txt3{
+}
+.sec2txt4{
+}
+.sec2txt5{
+}
+.sec2txt6{
+}
+.sec2txt7{
+}
+.sec2txt8{
+}
+.under{
+  }
+.sec2img3{
+}
+.sec2txt9{
+  font-size: calc(12px + ((1vw - 7.68px) * 1.5));
+}
+.fontl6{
+  font-size: calc(16px + ((1vw - 7.68px) * 2));
+}
+.fontl4{
+  font-size: calc(16px + ((1vw - 7.68px) * 2));
+}
+/*アドアって*/
+.section3{
+  width:100%;
+  height:auto;
+}
+.sec3img1{
+}
+.sec3img2{
+  }
+.sec3txt1{
+  font-size: calc(16px + ((1vw - 7.68px) * 2));
+}
+.sec3txt2{
+  font-size: calc(10px + ((1vw - 7.68px) * 2));
+}
+.under3{
+  }
+.sec3txt3{
+    font-size: calc(10px + ((1vw - 7.68px) * 2));
+}
+.sec3txt4{
+    margin: 0 0 0 42%;
+    width: 38%;
+    height: auto;
+    font-size: calc(10px + ((1vw - 7.68px) * 1.5));
+}
+/*選ばれる理由*/
+.section4{
+}
+.sec4img1wrap{
+}
+.sec4img1wrap span{
+  font-size: calc(42px + ((1vw - 7.68px) * 1.0));
+}
+.sec4txt1,.sec4txt2,.sec4txt3{
+  font-size: calc(22px + ((1vw - 7.68px) * 1.0));
+}
+.sec4txt1{
+}
+.sec4txt2{
+}
+.sec4txt3{
+}
+.sec4wrap{
+}
+.sec4resonwrap,.sec4resonwrap2{
+}
+.sec4resonwrap{
+}
+.sec4resonwrap2{
+}
+.sec4reasontxt1{
+    font-size: calc(20px + ((1vw - 7.68px) * 2.0));
+}
+.sec4reasontxt2..sec4reasontxt3{
+    font-size: calc(10px + ((1vw - 7.68px) * 2.0));
+    line-height: 1.7;
+}
+.sec4img1{
+  }
+.sec4img2{
+  }
+.under2{
+  }
+/*取扱商品*/
+.section5{
+}
+.sec5img1{
+}
+.sec5txt1{
+  font-size: calc(26px + ((1vw - 7.68px) * 1.0));
+}
+.sec5txt2,.sec5txt3,.sec5txt4,.sec5txt5{
+  font-size: calc(12px + ((1vw - 7.68px) * 1.0));
+}
+.sec5txt2{
+}
+.sec5txt3{
+}
+.sec5txt4{
+}
+.sec5txt5{
+}
+.sec5txt6{
+  font-size: calc(10px + ((1vw - 7.68px) * 1.4));
+}
+/*買取の流れ*/
+.section6{
+}
+.sec6txt1{
+  font-size: calc(24px + ((1vw - 7.68px) * 1.5));
+}
+.sec6step{
+}
+.sec6img1{
+  }
+.sec6steptxt1{
+    font-size: calc(18px + ((1vw - 7.68px) * 1.0));
+  }
+.sec6steptxt2{
+  font-size: calc(10px + ((1vw - 7.68px) * 1.2));
+  }
+.sec6img2{
+  }
+.sec6area{
+}
+.sec6areatxt1{
+  font-size: calc(22px + ((1vw - 7.68px) * 1.5));
+}
+.sec6areatxt2{
+  font-size: calc(12px + ((1vw - 7.68px) * 1.5));
+}
+.sec6areatxt3{
+  font-size: calc(10px + ((1vw - 7.68px) * 1.3));
+}
+.sec6areatxt4{
+    font-size: calc(14px + ((1vw - 7.68px) * 1.5));
+}
+/*お問合せ*/
+.contact{
+}
+.contacttxt1{
+  font-size: calc(18px + ((1vw - 7.68px) * 1.5));
+  }
+.contactleft{
+}
+.contacttxt2{
+  font-size: calc(18px + ((1vw - 7.68px) * 1.5));
+  }
+.contacttxt3{
+  }
+.contacttxt3 a{
+  font-size: calc(30px + ((1vw - 7.68px) * 4));
+  }
+.contacttxt4{
+  font-size: calc(10px + ((1vw - 7.68px) * 2));
+  }
+.contactright{
+}
+.contacttxt5{
+  font-size: calc(10px + ((1vw - 7.68px) * 2));
+  }
+.contactimg2{
+  }
+.contactimg1{
+  }
+/*フォーム*/
+.form{
+}
+.formtxt1{
+  font-size: calc(12px + ((1vw - 7.68px) * 2));
+}
+.formtxt2{
+  font-size: calc(14px + ((1vw - 7.68px) * 1.5));
+}
+.formtxt3{
+  font-size: calc(20px + ((1vw - 7.68px) * 1.5));
+}
+#formWrap {
+  font-size: calc(10px + ((1vw - 7.68px) * 1.5));
+}
+#formWrap h3{
+  font-size: calc(14px + ((1vw - 7.68px) * 1.5));
+}
+.required{
+  font-size: calc(10px + ((1vw - 7.68px) * 1.5));
+}
+.input{
+  font-size: calc(12px + ((1vw - 7.68px) * 1.5));
+  }
+.submitbutton{
+  font-size:calc(16px + ((1vw - 7.68px) * 1.5));
+}
+.submitbutton:hover {
+}
+.forminputtext{
+}
+.forminputtext2{
+}
+.forminputtext3{
+    width: 25%;
+}
+.formtextarea{
+}
+input[type=radio] {
+}
+.sample_label {
+}
+.sample_label:after, .sample_label:before {
+}
+.sample_label:after {
+}
+.sample_label:before {
+}
+input[type=radio]:checked + .sample_label:before {
+}
+.sample_label:hover:after {
+}
+input::placeholder {
+
+}
+/* IE */
+input:-ms-input-placeholder {
+}
+/* Edge */
+input::-ms-input-placeholder {
+}
+/* scroll to Top ----------------------------------------------*/
+  #scrollTop{
+}
+  #scrollTop a{
+  }
+	/* a[href^="tel:"] {
+		pointer-events: none;
+	} */
+}
+/* -------------------------------------------- */
+/* ▼スマホ用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.onlypc{display:none;}
+.onlypcinline{display:none!important;}
+.onlytb{display:none;}
+.onlytbinline{display:none;}
+.onlyhp{display:block;}
+.onlyhpinline{display:inline;}
+body{
+  width:auto;
+  }
+/* ヘッダー*/
+.header{
+  }
+.headerimg{
+    width: 50%;
+    position: absolute;
+    margin: 0 0 0 0%;
+    left:0%
+  }
+.headertxt{
+  position:relative;
+  padding: 0 0 0 12%;
+  width: 100%;
+  height: auto;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+.fontl{
+  font-size: calc(14px + ((1vw - 3.20px) * 3));
+}
+
+/* main*/
+/*Top*/
+.top {
+  width:100%;
+  margin:0 0 0 0;
+  padding: 0 0 0 0;
+}
+.toptxt1,.toptxt2,.toptxt3{
+  }
+.toptxt1{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  }
+.toptxt2{
+  font-size: calc(18px + ((1vw - 3.20px) * 7));
+  top:10%;
+  }
+.toptxt2 span{
+  font-size: calc(30px + ((1vw - 3.20px) * 9));
+  }
+.toptxt4{
+  line-height:0;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  top: 58%;
+  left: 52%;
+  }
+.toptxt5{
+  line-height:0;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  top: 68%;
+  left: 51%;
+  }
+.fontl2{
+  font-size: calc(28px + ((1vw - 3.20px) * 8));  }
+
+/*お悩み疑問*/
+.section2{
+}
+.sec2img1{
+  width:100%;
+  height:auto;
+  margin:5% 0 0 0;
+  }
+.sec2txt1{
+  width: 100%;
+  padding: 0 0 0 20%;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+.sec2txt2{
+  padding: 0 0 0 15%;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+.fontl5{
+  font-size: calc(20px + ((1vw - 3.20px) * 4));
+}
+.sec2txt3,.sec2txt4,.sec2txt5,.sec2txt6,.sec2txt7,.sec2txt8{
+    position: absolute;
+    left: 0;
+    padding: 0 0 0 0;
+  font-size: calc(22px + ((1vw - 3.20px) * .2));
+  line-height: 2;
+}
+.sec2txt3{
+    top: 25%;
+    width: 52%;
+    margin: 0 0 0 42%;}
+.sec2txt4{
+  top:30%;
+    width: 50%;
+    margin: 0 0 0 45%;}
+.sec2txt5{
+  top:35%;
+    width: 50%;
+    margin: 0 0 0 42%;}
+.sec2txt6{
+  top:40%;
+    width: 50%;
+    margin: 0 0 0 45%;}
+.sec2txt7{
+  top:45%;
+    width: 50%;
+    margin: 0 0 0 42%;}
+.sec2txt8{
+  top:50%;
+    width: 50%;
+    margin: 0 0 0 45%;}
+.sec2txt9{
+    width: 100%;
+    padding:0 2.5% 0 2.5%;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+.fontl6{
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+}
+.fontl4{
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+}
+/*アドアって*/
+.section3{
+}
+.sec3img1{
+  width:100%;
+  height:auto;
+  }
+.sec3txt1{
+  width:98%;
+  height:auto;
+  top: 15%;
+  margin:0 1% 0 1%;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  text-align:center;
+}
+.sec3txt2{
+    top: 22%;
+    line-height: 1.2;
+  width:95%;
+  height:auto;
+  margin:0 auto;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+.sec3txt3{
+    top: 18%;
+    left: 0;
+    padding: 2% 2% 2% 2%;
+    margin: 0 0 0 4%;
+    width: 92%;
+    height: auto;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+    line-height:1.2;
+}
+.sec3txt4{
+    left: 5%;
+    top: 77%;
+    margin: 0 0 0 0;
+    width: 90%;
+    height: auto;
+    font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+/*選ばれる理由*/
+.sec4txt1,.sec4txt2,.sec4txt3{
+  bottom:16%;
+  left:0;
+  font-size: calc(14px + ((1vw - 3.20px) * 3));
+}
+.sec4txt1{
+  left:7%;
+}
+.sec4txt2{
+  left:42%;
+}
+.sec4txt3{
+  left:76%;
+}
+.sec4wrap{
+  width:100%;
+  height:auto;
+}
+.sec4resonwrap,.sec4resonwrap2{
+}
+.sec4resonwrap{
+  margin:0 0 0 2%;
+}
+.sec4resonwrap2{
+  margin:0 0 0 0;
+}
+.sec4resonwrap3{
+  margin:0 1% 0 1%;
+}
+.sec4reasontxt1{
+  font-size: calc(14px + ((1vw - 3.20px) * 3));
+}
+.sec4reasontxt2{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+    line-height: 1.2;
+    padding: 5% 0 0 0;
+    font-weight: normal;
+}
+.sec4reasontxt3{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+    line-height: 1.2;
+    padding: 5% 0 0 0;
+    font-weight: normal;
+}
+.sec4img1{
+  width:100%;
+  height:auto;
+  }
+/*取扱商品*/
+.sec5img1{
+  width:100%;
+  height:auto;
+  }
+.sec5txt1{
+  width:95%;
+  height:auto;
+  top:5%;
+  left:2.5%;
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+}
+.sec5txt2,.sec5txt3,.sec5txt4,.sec5txt5{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+      width: 25%;
+}
+.sec5txt2{
+  left:1%;
+}
+.sec5txt3{
+  left:25%;
+}
+.sec5txt4{
+  left:50%;
+}
+.sec5txt5{
+  left:75%;
+}
+.sec5txt6{
+position: relative;
+    width: 100%;
+    left: 0%;
+    font-size: calc(12px + ((1vw - 3.20px) * 3));
+    background-color: #000;
+    margin: -5% 0 0 0;
+}
+/*買取の流れ*/
+.section6{
+    padding: 3% 0% 3% 0%;
+}
+.sec6txt1{
+    width: 95%;
+    margin: 0 auto 3% auto;
+    font-size: 32px;
+    font-size: calc(14px + ((1vw - 3.20px) * 3));
+}
+.sec6step{
+  width:95%;
+  height:auto;
+}
+.sec6img1{
+    width: 20%;
+    height: auto;
+    margin: 0 3% 0 0;
+  }
+.sec6steptxt1{
+    width: 77%;
+    height: auto;
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+  }
+.sec6steptxt2{
+  width:77%;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+      line-height: 1.2;
+  }
+.sec6area{
+    width: 95%;
+    height: auto;
+    margin: 3% auto 0 auto;
+    padding: 0 5% 0 5%;
+}
+.sec6areatxt1{
+  font-size: calc(14px + ((1vw - 3.20px) * 3));
+}
+.sec6areatxt2{
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+}
+.sec6areatxt3{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+/*お問合せ*/
+.contact{
+    padding: 3% 5% 3% 5%;
+}
+.contacttxt1{
+    width: 100%;
+  height:auto;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  }
+.contactleft{
+  width:55%;
+    padding: 0 0 0 2.5%;
+  height:auto;
+}
+.contacttxt2{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  }
+.contacttxt3{
+    margin: 0 0 -3% 2%;
+  }
+.contacttxt3 a{
+  font-size: calc(14px + ((1vw - 3.20px) * 5));
+  text-decoration:underline;
+  color: #6BBD00;
+  }
+.contacttxt4{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  }
+.contactright{
+    width: 45%;
+    height: auto;
+    float: right;
+}
+.contacttxt5{
+    line-height: 1.3;
+  padding:0 0 0 15%;
+  width:100%;
+  height:auto;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  }
+.contactimg1{
+    width:100%;
+    height:auto;
+    margin: 0 0 0 0;
+  }
+.contactimg2{
+    margin: 3% 0 0 0;
+  }
+/*フォーム*/
+.form{
+  padding:0 2.5% 0 2.5%;
+}
+.formtxt1{
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+}
+.formtxt2{
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+}
+.formtxt3{
+  font-size: calc(14px + ((1vw - 3.20px) * 3));
+}
+#formWrap {
+	margin:0 auto;
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+  font-size:20px;
+
+}
+#formWrap h3{
+  font-size:20px;
+  font-size: calc(14px + ((1vw - 3.20px) * 3));
+
+
+}
+.required{
+  font-size:20px;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+
+
+}
+.input{
+  font-size:20px;
+  font-size: calc(10px + ((1vw - 3.20px) * 3));
+  }
+input{
+  font-size:16px;
+}
+input[type="submit"], input[type="reset"], input[type="button"] {
+  display:block;
+  width:95%;
+  font-size: calc(18px + ((1vw - 3.20px) * 3));
+  font-size:20px;
+  line-height:1.5;
+}
+
+input[type=radio] {
+}
+.sample_label {
+}
+.sample_label:after, .sample_label:before {
+}
+.sample_label:after {
+  left: 15px;	/* 左から配置の基準位置を決める */
+  margin-top: -10px;	/* チェック枠の位置 */
+  width: 15px;	/* ボックスの横幅を指定する */
+  height: 15px;	/* ボックスの高さを指定する */
+  border: 3px solid #ccc;	/* ボックスの境界線を実線で指定する */
+  border-radius: 50%;	/* ボックスの角丸を指定する */
+}
+.sample_label:before {
+  left: 20px;	/* 左から配置の基準位置を決める */
+  margin-top: -5px;	/* チェックマークの位置 */
+  width: 10px;	/* ボックスの横幅を指定する */
+  height: 10px;	/* ボックスの高さを指定する */
+  background: #0171bd;/* ボックスの背景色を指定する */
+  border-radius: 50%;	/* ボックスの角丸を指定する */
+  opacity: 0;	/* 要素を透過指定する */
+}
+input[type=radio]:checked + .sample_label:before {
+}
+.sample_label:hover:after {
+}
+.forminputtext{
+  width: 100%;
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+  font-size:20px;
+}
+.forminputtext2{
+  width: 28%;
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+  font-size:20px;
+}
+.forminputtext3{
+  width: 38%;
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+  font-size:20px;
+
+}
+.formtextarea{
+  font-size: calc(12px + ((1vw - 3.20px) * 3));
+  font-size:20px;
+}
+}

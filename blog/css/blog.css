@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/* ****************************************************
+Title: blog.css
+Created: 2011-01-11
+Last Modified: 2011-01-14
+Editor(s): tsutsu
+Last Editor: tsutsu
+***************************************************** */
+
+
+/* Table Of Contents
+----------------------------------------
+
+# General Elements
+# lNav
+# content
+# sidebar
+# clearfix
+# common classes
+
+----------------------------------------*/
+
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+
+
+/* # lNav
+---------------------------------------------------------------------------- */
+
+div#lNav div.archives {
+	margin: 0 0 15px;
+}
+
+div#lNav div.archives ul li {
+	background: url(../images/ico_archive.gif) no-repeat 10px 15px;
+	border-bottom: solid 1px #000000;
+	padding: 10px;
+}
+
+div#lNav div.archives ul li a {
+	display: inline;
+	padding: 0 0 0 20px;
+}
+
+
+/* # content
+---------------------------------------------------------------------------- */
+
+div#content .pageHead {
+	margin: 0 0 15px;
+}
+
+div#content div.wp-pagenavi {
+	clear: both;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+div#content div.article {
+	background: #fffbeb;
+	border: solid 1px #949392;
+	clear: both;
+	margin: 0 0 15px;
+	padding: 10px 14px;
+}
+
+* html div#content div.article {
+	overflow: hidden;
+	width: 400px;
+}
+
+*:first-child+html div#content div.article {
+	overflow: hidden;
+	width: 400px;
+}
+
+div#content div.article .articleHead {
+	background: url(../images/ico_entryhead.gif) no-repeat 0 0.3em;
+	border-bottom: dotted 1px #000000;
+	font-size: 120%;
+	font-weight: bold;
+	margin: 0 0 6px;
+	padding: 0 0 3px 20px;
+}
+
+div#content div.article .articleDate {
+	margin: 0 0 6px;
+	text-align: right;
+}
+
+div#content div.article h3,
+div#content div.article h4 {
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+div#content div.article h3 {
+	font-size: 110%;
+}
+
+div#content div.article h5 {
+	margin: 0 0 10px;
+}
+
+div#content div.article dl {
+	margin-bottom: 15px;
+}
+
+div#content div.article dl dt {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+div#content div.article dl dd {
+	margin: 0 0 10px 10px;
+}
+
+div#content div.article ul,
+div#content div.article ol {
+	margin: 0 0 15px;
+}
+
+div#content div.article ul {
+	list-style: disc;
+}
+
+div#content div.article ol {
+	list-style: decimal;
+}
+
+div#content div.article ul li,
+div#content div.article ol li {
+	margin: 0 0 0 15px;
+}
+
+* html div#content div.article ol li {
+	margin-left: 25px;
+}
+
+*:first-child+html div#content div.article ol li {
+	margin-left: 25px;
+}
+
+div#content div.article table {
+	max-width: 400px;
+	margin-bottom: 15px;
+}
+
+* html div#content div.article table {
+	width: 100%;
+}
+
+*:first-child+html div#content div.article table {
+	width: 100%;
+}
+
+div#content div.article table th,
+div#content div.article table td {
+	border: solid 1px #949392;
+	padding: 5px;
+}
+
+div#content div.article table th {
+	background: #f4f2f0;
+}
+
+div#content div.article table td {
+	background: #ffffff;
+}
+
+div#content div.navigation {
+	margin: 0 0 15px;
+	text-align: center;
+}
+
+div#content div.navigation p {
+	margin: 0;
+}
+
+
+/* # sidebar
+---------------------------------------------------------------------------- */
+
+div#sidebar div#adoorBlogLogo {
+	display: none;
+}
+
+
+/* # clearfix
+---------------------------------------------------------------------------- */
+
+div#content div.article div.articleBody,
+div#content div.navigation {
+	zoom: 1;
+}
+
+div#content div.article div.articleBody:after,
+div#content div.navigation:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+
+/* # common classes
+---------------------------------------------------------------------------- */
+
+/* 141104
+----------------------------------- */
+
+.left_underlayer_bottom_contact{
+	float:left;
+}
+.right_underlayer_bottom_contact{
+	float:right;
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#blockfaq{
+border:1px solid #949392;
+margin-top:10px;
+zoom:1;
+}
+
+div#blockfaq table.faq {
+border-collapse:collapse;
+border-bottom:1px solid #dbdbdb;
+margin:15px 12px 0 12px;
+}
+
+div#blockfaq table.faq td.q_img {
+padding-right:9px;
+width: 30px;
+}
+div#blockfaq table.faq td.q_text {
+background:#fbf7e4;
+font-weight:bold;
+padding-top: 4px;
+font-size:12px;
+line-height:1.5;
+}
+div#blockfaq table.faq td.a_img {
+vertical-align:top;
+padding-top: 3px;
+width: 30px;
+}
+div#blockfaq table.faq td.a_text{
+padding: 5px 0 10px 0;
+font-size:12px;
+line-height:1.5;
+}
+
+
+
+
