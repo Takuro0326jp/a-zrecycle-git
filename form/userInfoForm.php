@@ -285,7 +285,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<tr>
 							<td class="form_td02">メールアドレス<span class="txt_red">必 須</span></td>
 							<td class="form_td03">
-								<input type="text" name="userMailAddress" value="<?php  echo $_SESSION['user']['userMailAddress'] ;  ?>" class="form_waku03" placeholder="※携帯電話のメールアドレスは使用しないで下さい。" />
+								<input type="text" name="userMailAddress" value="<?php  echo $_SESSION['user']['userMailAddress'] ;  ?>" class="form_waku03" placeholder="例）info@example.com" />
+								<p style="font-size:12px;color:#666;margin-top:5px;line-height:1.6;">※Gmailは弊社からの返信が迷惑メールフォルダに振り分けられる場合がありますので送信後は必ずご確認ください。<br>※48時間以内に返信が無い場合はinfo@adoor.jpへ直接メール、又はお電話でお問合せ下さい。<br>※hotmail、outlook、msn、ezweb、docomoなど一部のメールアドレスは、システムにブロックされる可能性が非常に高く、ご使用をお控え下さい。</p>
 							</td>
 						</tr>
 					</table>
@@ -336,7 +337,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<tr>
 							<td class="form_td02">ショップへのコメント</td>
 							<td class="form_td04">
-								<textarea  name="comment" rows="8" cols="50" class="form_waku04" wrap="physical" onKeyup="
+								<textarea  name="comment" rows="8" cols="50" class="form_waku04" wrap="physical" placeholder="その他、搬出状況など（戸建の場合は2Fに設置、階段から搬出可能。高さ制限のない駐車場有などをお伝えいただくとスムーズです）" onKeyup="
 								o=document.getElementById('slen');
 								n=this.value.replace(/\s|　/gm,'').length;
 								o.value=n;
