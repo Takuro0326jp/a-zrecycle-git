@@ -6,6 +6,12 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE );
 
 //~ echo '<pre>' . print_r($_SESSION, true) . '</pre>';
 
+// 商品削除処理
+if(isset($_POST['itemNbrDelete'])){
+	unset($_SESSION['items'][$_POST['itemNbrDelete']]);
+	$_SESSION['items'] = array_values($_SESSION['items']);
+}
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
@@ -214,6 +220,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</div>
 
 				</form>
+
+				<?php if(!empty($_SESSION['items']) && count($_SESSION['items']) > 0){ ?>
+				<br />
+				<table border="0" cellpadding="0" cellspacing="0" class="form_tbl">
+					<tr>
+						<td colspan="3" class="form_td01">登録済み商品情報</td>
+					</tr>
+					<?php
+					for($i = 0; $i < count($_SESSION['items']); $i++){
+					?>
+					<tr>
+						<td class="form_td02">
+							商品<?php echo $i + 1; ?>
+						</td>
+						<td class="form_td05">
+							<div class="productName"><?php echo htmlspecialchars($_SESSION['items'][$i]['itemName']); ?></div>
+						</td>
+						<td class="form_td06">
+							<form method="post" action="">
+								<input type="hidden" name="itemNbrDelete" value="<?php echo $i; ?>" />
+								<button type="submit" class="button blk">削除</button>
+							</form>
+						</td>
+					</tr>
+					<?php } ?>
+				</table>
+				<?php } ?>
 			</div>
 
 			<br clear="all" />
