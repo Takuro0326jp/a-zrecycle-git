@@ -571,8 +571,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						?>
 					</p>
 
+					<div style="max-width:880px;margin:30px auto 0;padding:20px 30px;background:#f5f5f5;border-radius:6px;text-align:center;font-size:15px;line-height:1.8;">
+						なるべく早めに回答いたしますが、<strong>48時間以内に連絡がない場合はお電話下さい。</strong>
+					</div>
+
+					<div style="max-width:880px;margin:40px auto 0;padding:30px;border:2px solid #c8a063;border-radius:12px;">
+						<h3 style="font-size:18px;margin:0 0 20px;font-weight:bold;">この後の流れ</h3>
+
+						<div style="display:flex;align-items:flex-start;margin-bottom:15px;">
+							<span style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#6ab04c;color:#fff;font-weight:bold;font-size:16px;flex-shrink:0;margin-right:15px;margin-top:2px;">1</span>
+							<div>
+								<strong style="font-size:16px;">確認メールが届きます</strong><br>
+								<span style="font-size:14px;color:#555;">ご登録のメールアドレスに申し込み内容の確認メールを送信します。</span>
+							</div>
+						</div>
+
+						<p style="margin:10px 0 15px;padding:10px 15px;background:#fff8f0;border:1px solid #e8d5bf;border-radius:6px;font-size:13px;color:#c0392b;line-height:1.8;">
+							※Gmailをご利用の場合、確認メールは送信されませんが、お申し込み内容は正常に受信されております。<br>
+							また、当店からのご連絡は迷惑メールフォルダに届く場合がございますので、あわせてご確認ください。
+						</p>
+
+						<div style="display:flex;align-items:flex-start;margin-bottom:15px;">
+							<span style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#6ab04c;color:#fff;font-weight:bold;font-size:16px;flex-shrink:0;margin-right:15px;margin-top:2px;">2</span>
+							<div>
+								<strong style="font-size:16px;">スタッフが査定します</strong><br>
+								<span style="font-size:14px;color:#555;">お申し込み内容をもとに、専門スタッフが査定を行います。</span>
+							</div>
+						</div>
+
+						<div style="display:flex;align-items:flex-start;">
+							<span style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#6ab04c;color:#fff;font-weight:bold;font-size:16px;flex-shrink:0;margin-right:15px;margin-top:2px;">3</span>
+							<div>
+								<strong style="font-size:16px;">査定結果をご連絡します</strong><br>
+								<span style="font-size:14px;color:#555;">メールまたはお電話にて査定額をご連絡いたします。</span>
+							</div>
+						</div>
+					</div>
+
 					<!-- <div><a href="../index.html"><img src="images/btn_back_to_top.gif" class="imghover" /></a></div> -->
-					<div class="thanks_back"><a href="../index.html" class="button blk">トップページに戻る</a></div>
+					<div class="thanks_back"><a href="../index.html" class="button blk">トップページへ戻る</a></div>
 				</div>
 			</div>
 
