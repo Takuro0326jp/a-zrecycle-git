@@ -293,7 +293,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<a href="tel:0120531017"><span>0120-531-017</span><small>電話受付 9:30〜18:30</small></a>
 								</div>
 								<div class="site-header-inquiry">
-									<a href="/form/index.php"><span>買取のご相談</span></a>
+									<a href="<?php echo esc_url( adoor_contact_form_url() ); ?>"><span>買取のご相談</span></a>
 								</div>
 								<div class="site-header-nav-btn" id="nav-toggle-btn">
 									<span></span>
